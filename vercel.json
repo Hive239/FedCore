@@ -1,0 +1,13 @@
+{
+  "buildCommand": "rm -rf .next && next build",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "build": {
+    "env": {
+      "NEXT_TELEMETRY_DISABLED": "1",
+      "NODE_OPTIONS": "--max-old-space-size=4096",
+      "NEXT_SHARP_PATH": "/tmp/node_modules/sharp",
+      "NEXT_PRIVATE_STANDALONE": "true"
+    }
+  }
+}

@@ -1,0 +1,1716 @@
+{
+  "timestamp": "2025-08-30T02:43:18.146Z",
+  "secureItems": 20,
+  "issuesFound": 281,
+  "issues": [
+    {
+      "type": "MISSING_TENANT_FILTER",
+      "severity": "CRITICAL",
+      "file": "src/lib/hooks/use-project-assignments.ts",
+      "message": "Hook use-project-assignments.ts accesses Supabase but doesn't filter by tenant_id"
+    },
+    {
+      "type": "API_MISSING_TENANT_CHECK",
+      "severity": "CRITICAL",
+      "file": "src/app/api/profile/route.ts",
+      "message": "API route route.ts doesn't validate tenant context"
+    },
+    {
+      "type": "API_MISSING_TENANT_CHECK",
+      "severity": "CRITICAL",
+      "file": "src/app/api/nexus/ml/feedback/route.ts",
+      "message": "API route route.ts doesn't validate tenant context"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "fix-organizations-table.sql",
+      "message": "Table organizations created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "emergency-fix-organizations.sql",
+      "message": "Table organizations created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "emergency-fix-organizations-v2.sql",
+      "message": "Table organizations created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "clean-schema.sql",
+      "message": "Table profiles created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "clean-schema.sql",
+      "message": "Table tenants created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "clean-schema.sql",
+      "message": "Table user_tenants created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "clean-schema.sql",
+      "message": "Table associations created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "clean-schema.sql",
+      "message": "Table categories created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "clean-schema.sql",
+      "message": "Table projects created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "clean-schema.sql",
+      "message": "Table tasks created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "clean-schema.sql",
+      "message": "Table vendors created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "clean-schema.sql",
+      "message": "Table documents created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "clean-schema.sql",
+      "message": "Table events created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/task-enhancements.sql",
+      "message": "Table task_dependencies created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/task-enhancements.sql",
+      "message": "Table task_suggestions created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/task-enhancements.sql",
+      "message": "Table construction_timeline_templates created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/task-enhancements.sql",
+      "message": "Table task_templates created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/schema.sql",
+      "message": "Table profiles created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/schema.sql",
+      "message": "Table tenants created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/schema.sql",
+      "message": "Table user_tenants created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/schema.sql",
+      "message": "Table associations created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/schema.sql",
+      "message": "Table categories created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/schema.sql",
+      "message": "Table projects created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/schema.sql",
+      "message": "Table tasks created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/schema.sql",
+      "message": "Table vendors created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/schema.sql",
+      "message": "Table documents created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/schema.sql",
+      "message": "Table events created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/performance-monitoring-schema.sql",
+      "message": "Table error_logs created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/performance-monitoring-schema.sql",
+      "message": "Table performance_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/performance-monitoring-schema.sql",
+      "message": "Table user_sessions created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/performance-monitoring-schema.sql",
+      "message": "Table api_performance created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/performance-monitoring-schema.sql",
+      "message": "Table system_health created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/performance-monitoring-schema.sql",
+      "message": "Table performance_alerts created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/optimize-for-scale.sql",
+      "message": "Table activity_logs_partitioned created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/optimize-for-scale.sql",
+      "message": "Table public created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/optimize-for-scale.sql",
+      "message": "Table for created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/optimize-for-scale.sql",
+      "message": "Table performance_logs created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/optimize-for-scale.sql",
+      "message": "Table rate_limits created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/fix-tenant-setup.sql",
+      "message": "Table profiles created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/fix-tenant-security.sql",
+      "message": "Table security_audit_log created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-setup.sql",
+      "message": "Table profiles created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-setup.sql",
+      "message": "Table tenants created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-setup.sql",
+      "message": "Table user_tenants created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-setup.sql",
+      "message": "Table associations created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-setup.sql",
+      "message": "Table categories created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-setup.sql",
+      "message": "Table projects created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-setup.sql",
+      "message": "Table tasks created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-setup.sql",
+      "message": "Table vendors created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-setup.sql",
+      "message": "Table documents created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-setup.sql",
+      "message": "Table events created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup.sql",
+      "message": "Table profiles created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup.sql",
+      "message": "Table tenants created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup.sql",
+      "message": "Table user_tenants created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup.sql",
+      "message": "Table associations created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup.sql",
+      "message": "Table categories created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup.sql",
+      "message": "Table projects created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup.sql",
+      "message": "Table tasks created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup.sql",
+      "message": "Table vendors created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup.sql",
+      "message": "Table documents created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup.sql",
+      "message": "Table events created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup.sql",
+      "message": "Table messages created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup.sql",
+      "message": "Table conversations created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup.sql",
+      "message": "Table activity_logs created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup.sql",
+      "message": "Table notifications created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup-fixed.sql",
+      "message": "Table profiles created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup-fixed.sql",
+      "message": "Table tenants created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup-fixed.sql",
+      "message": "Table user_tenants created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup-fixed.sql",
+      "message": "Table associations created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup-fixed.sql",
+      "message": "Table categories created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup-fixed.sql",
+      "message": "Table projects created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup-fixed.sql",
+      "message": "Table tasks created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup-fixed.sql",
+      "message": "Table vendors created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup-fixed.sql",
+      "message": "Table documents created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup-fixed.sql",
+      "message": "Table events created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup-fixed.sql",
+      "message": "Table messages created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup-fixed.sql",
+      "message": "Table conversations created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup-fixed.sql",
+      "message": "Table activity_logs created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/complete-production-setup-fixed.sql",
+      "message": "Table notifications created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/add-customers-schema.sql",
+      "message": "Table customers_associations created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/add-customers-schema.sql",
+      "message": "Table project_customers created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/add-customers-schema.sql",
+      "message": "Table event_customer_attendees created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/add-customers-schema.sql",
+      "message": "Table update_log_customer_mentions created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/COMPLETE-ORDERED-SCHEMA.sql",
+      "message": "Table project_team_members created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/COMPLETE-ORDERED-SCHEMA.sql",
+      "message": "Table project_vendors created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/COMPLETE-ORDERED-SCHEMA.sql",
+      "message": "Table task_team_members created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/COMPLETE-ORDERED-SCHEMA.sql",
+      "message": "Table task_vendors created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/COMPLETE-ORDERED-SCHEMA.sql",
+      "message": "Table schedule_events created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/COMPLETE-ORDERED-SCHEMA.sql",
+      "message": "Table event_team_attendees created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/COMPLETE-ORDERED-SCHEMA.sql",
+      "message": "Table event_vendor_attendees created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/COMPLETE-ORDERED-SCHEMA.sql",
+      "message": "Table update_logs created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/COMPLETE-ORDERED-SCHEMA.sql",
+      "message": "Table update_log_team_mentions created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/COMPLETE-ORDERED-SCHEMA.sql",
+      "message": "Table update_log_vendor_mentions created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/COMPLETE-ORDERED-SCHEMA.sql",
+      "message": "Table notifications created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/COMPLETE-ORDERED-SCHEMA.sql",
+      "message": "Table notification_templates created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/tenant_management_system.sql",
+      "message": "Table tenant_invitations created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/setup_complete_schema.sql",
+      "message": "Table profiles created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/setup_complete_schema.sql",
+      "message": "Table tenants created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/setup_complete_schema.sql",
+      "message": "Table user_tenants created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/setup_complete_schema.sql",
+      "message": "Table projects created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/setup_complete_schema.sql",
+      "message": "Table ml_models created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/setup_complete_schema.sql",
+      "message": "Table predictions_cache created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/report-templates.sql",
+      "message": "Table report_templates created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/performance-infrastructure.sql",
+      "message": "Table cache_entries created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/performance-infrastructure.sql",
+      "message": "Table read_replica_config created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/performance-infrastructure.sql",
+      "message": "Table connection_pool_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/performance-infrastructure.sql",
+      "message": "Table worker_jobs created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/performance-infrastructure.sql",
+      "message": "Table graphql_cache created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/performance-infrastructure.sql",
+      "message": "Table tenant_optimizations created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/performance-infrastructure.sql",
+      "message": "Table edge_deployments created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/performance-infrastructure.sql",
+      "message": "Table prefetch_patterns created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/performance-infrastructure.sql",
+      "message": "Table dataloader_batches created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/performance-infrastructure.sql",
+      "message": "Table performance_benchmarks created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/ml_models_safe.sql",
+      "message": "Table tenants created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/ml_models_safe.sql",
+      "message": "Table ml_models created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/ml_models_safe.sql",
+      "message": "Table predictions_cache created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/ml_models_safe.sql",
+      "message": "Table ml_training_jobs created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/ml_models_safe.sql",
+      "message": "Table ml_experiments created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/ml_models_and_cache.sql",
+      "message": "Table ml_models created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/ml_models_and_cache.sql",
+      "message": "Table predictions_cache created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/ml_models_and_cache.sql",
+      "message": "Table ml_training_jobs created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/ml_models_and_cache.sql",
+      "message": "Table ml_experiments created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/ml-feedback-tables.sql",
+      "message": "Table ml_feedback created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/ml-feedback-tables.sql",
+      "message": "Table learned_principles created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/ml-feedback-tables.sql",
+      "message": "Table conflict_resolutions created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/fix_tenant_invitations.sql",
+      "message": "Table tenant_invitations created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/fix_tenant_invitations.sql",
+      "message": "Table tenant_activity_log created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/fix_ml_schema.sql",
+      "message": "Table user_tenants created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/fix_ml_schema.sql",
+      "message": "Table projects created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/fix_ml_schema.sql",
+      "message": "Table ml_models created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/fix_ml_schema.sql",
+      "message": "Table predictions_cache created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/fix_ml_models_table.sql",
+      "message": "Table ml_models created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/fix-architecture-analysis-tables.sql",
+      "message": "Table performance_logs created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/fix-architecture-analysis-tables.sql",
+      "message": "Table error_logs created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/fix-architecture-analysis-tables.sql",
+      "message": "Table architecture_analysis_reports created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/fix-architecture-analysis-tables.sql",
+      "message": "Table security_vulnerabilities created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/fix-architecture-analysis-tables.sql",
+      "message": "Table compliance_tracking created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/create_tenant_system.sql",
+      "message": "Table tenants created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/create_tenant_system.sql",
+      "message": "Table user_tenants created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/create_tenant_system.sql",
+      "message": "Table tenant_invitations created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/create_tenant_system.sql",
+      "message": "Table tenant_activity_log created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/create_simple_projects.sql",
+      "message": "Table projects created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/complete_ml_schema.sql",
+      "message": "Table ml_models created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/complete_ml_schema.sql",
+      "message": "Table projects created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/architecture-analysis.sql",
+      "message": "Table architecture_analysis_reports created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/architecture-analysis.sql",
+      "message": "Table security_vulnerabilities created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/architecture-analysis.sql",
+      "message": "Table compliance_tracking created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/architecture-analysis.sql",
+      "message": "Table ml_analysis_patterns created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/architecture-analysis.sql",
+      "message": "Table architecture_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/architecture-analysis.sql",
+      "message": "Table dependency_analysis created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/architecture-analysis.sql",
+      "message": "Table ml_predictions created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/architecture-analysis.sql",
+      "message": "Table anomaly_detections created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/20250125_ml_feedback_simple.sql",
+      "message": "Table ml_feedback created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/20250125_ml_feedback_simple.sql",
+      "message": "Table learned_principles created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/20250125_ml_feedback_simple.sql",
+      "message": "Table conflict_resolutions created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/20240105_email_reply_system_fixed.sql",
+      "message": "Table for created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/20240105_email_reply_system_fixed.sql",
+      "message": "Table for created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/20240105_email_reply_system.sql",
+      "message": "Table for created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/20240105_email_reply_system.sql",
+      "message": "Table for created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/02_tenant_assignment.sql",
+      "message": "Table tenant_invitations created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "supabase/migrations/01_create_projects.sql",
+      "message": "Table projects created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-weather-fix.sql",
+      "message": "Table weather_data created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-weather-fix.sql",
+      "message": "Table ml_models created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-weather-fix.sql",
+      "message": "Table predictions_cache created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-weather-fix.sql",
+      "message": "Table ml_feedback created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-weather-fix.sql",
+      "message": "Table construction_principles created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-weather-fix.sql",
+      "message": "Table schedule_conflicts created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-weather-fix.sql",
+      "message": "Table architecture_analysis_reports created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-weather-fix.sql",
+      "message": "Table performance_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-weather-fix.sql",
+      "message": "Table ml_model_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-weather-fix.sql",
+      "message": "Table notifications created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-safe-migration.sql",
+      "message": "Table ml_models created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-safe-migration.sql",
+      "message": "Table predictions_cache created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-safe-migration.sql",
+      "message": "Table ml_feedback created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-safe-migration.sql",
+      "message": "Table construction_principles created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-safe-migration.sql",
+      "message": "Table weather_data created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-safe-migration.sql",
+      "message": "Table schedule_conflicts created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-safe-migration.sql",
+      "message": "Table architecture_analysis_reports created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-safe-migration.sql",
+      "message": "Table code_quality_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-safe-migration.sql",
+      "message": "Table performance_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-safe-migration.sql",
+      "message": "Table ml_model_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-safe-migration.sql",
+      "message": "Table notifications created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-minimal-migration.sql",
+      "message": "Table architecture_analysis_reports created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-minimal-migration.sql",
+      "message": "Table architecture_analysis_reports created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-minimal-migration.sql",
+      "message": "Table ml_models created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-minimal-migration.sql",
+      "message": "Table predictions_cache created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-minimal-migration.sql",
+      "message": "Table ml_feedback created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-minimal-migration.sql",
+      "message": "Table construction_principles created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-minimal-migration.sql",
+      "message": "Table weather_data created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-minimal-migration.sql",
+      "message": "Table schedule_conflicts created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-minimal-migration.sql",
+      "message": "Table code_quality_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-minimal-migration.sql",
+      "message": "Table performance_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-minimal-migration.sql",
+      "message": "Table ml_model_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-minimal-migration.sql",
+      "message": "Table notifications created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-migration.sql",
+      "message": "Table ml_models created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-migration.sql",
+      "message": "Table construction_principles created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-migration.sql",
+      "message": "Table weather_data created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-migration.sql",
+      "message": "Table schedule_conflicts created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-migration.sql",
+      "message": "Table architecture_analysis_reports created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-migration.sql",
+      "message": "Table code_quality_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-migration.sql",
+      "message": "Table performance_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-migration.sql",
+      "message": "Table ml_model_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-migration.sql",
+      "message": "Table notifications created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-live-schema.sql",
+      "message": "Table ml_models created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-live-schema.sql",
+      "message": "Table construction_principles created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-live-schema.sql",
+      "message": "Table weather_data created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-live-schema.sql",
+      "message": "Table architecture_analysis_reports created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-live-schema.sql",
+      "message": "Table code_quality_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-live-schema.sql",
+      "message": "Table ml_model_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-live-schema-safe.sql",
+      "message": "Table ml_models created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-live-schema-safe.sql",
+      "message": "Table construction_principles created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-live-schema-safe.sql",
+      "message": "Table weather_data created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-live-schema-safe.sql",
+      "message": "Table architecture_analysis_reports created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-live-schema-safe.sql",
+      "message": "Table code_quality_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-live-schema-safe.sql",
+      "message": "Table ml_model_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-final-migration.sql",
+      "message": "Table ml_models created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-final-migration.sql",
+      "message": "Table predictions_cache created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-final-migration.sql",
+      "message": "Table ml_feedback created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-final-migration.sql",
+      "message": "Table construction_principles created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-final-migration.sql",
+      "message": "Table weather_data created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-final-migration.sql",
+      "message": "Table schedule_conflicts created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-final-migration.sql",
+      "message": "Table architecture_analysis_reports created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-final-migration.sql",
+      "message": "Table code_quality_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-final-migration.sql",
+      "message": "Table performance_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-final-migration.sql",
+      "message": "Table ml_model_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-final-migration.sql",
+      "message": "Table notifications created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-complete-migration.sql",
+      "message": "Table ml_models created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-complete-migration.sql",
+      "message": "Table construction_principles created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-complete-migration.sql",
+      "message": "Table weather_data created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-complete-migration.sql",
+      "message": "Table architecture_analysis_reports created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-complete-migration.sql",
+      "message": "Table code_quality_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/nexus-complete-migration.sql",
+      "message": "Table ml_model_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/fix-predictions-cache.sql",
+      "message": "Table predictions_cache created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/fix-predictions-cache.sql",
+      "message": "Table predictions_cache created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/enterprise-50k-schema-compatible.sql",
+      "message": "Table resource_usage created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/enterprise-50k-schema-compatible.sql",
+      "message": "Table IF created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/enterprise-50k-schema-compatible.sql",
+      "message": "Table IF created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/enterprise-50k-schema-compatible.sql",
+      "message": "Table performance_cache created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/enterprise-50k-schema-compatible.sql",
+      "message": "Table connection_pool_config created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/complete-multi-tenant-schema.sql",
+      "message": "Table tenants created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/complete-multi-tenant-schema.sql",
+      "message": "Table profiles created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/complete-multi-tenant-schema.sql",
+      "message": "Table user_tenants created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/complete-multi-tenant-schema.sql",
+      "message": "Table projects created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/complete-multi-tenant-schema.sql",
+      "message": "Table tasks created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/complete-multi-tenant-schema.sql",
+      "message": "Table task_comments created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/complete-multi-tenant-schema.sql",
+      "message": "Table project_teams created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/complete-multi-tenant-schema.sql",
+      "message": "Table activity_logs created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/tenant-billing-settings.sql",
+      "message": "Table tenant_settings created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/tenant-billing-settings.sql",
+      "message": "Table billing_history created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/tenant-billing-settings.sql",
+      "message": "Table usage_tracking created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/tenant-billing-settings.sql",
+      "message": "Table subscription_plans created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/ml-analysis-tables.sql",
+      "message": "Table architecture_analysis_reports created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/ml-analysis-tables.sql",
+      "message": "Table ml_analysis_patterns created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/ml-analysis-tables.sql",
+      "message": "Table code_patterns created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/ml-analysis-tables.sql",
+      "message": "Table metrics_history created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/ml-analysis-tables.sql",
+      "message": "Table slow_queries created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/ml-analysis-tables.sql",
+      "message": "Table security_vulnerabilities created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/ml-analysis-tables.sql",
+      "message": "Table compliance_tracking created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/ml-analysis-tables.sql",
+      "message": "Table dependency_analysis created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/ml-analysis-tables.sql",
+      "message": "Table architecture_metrics created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/ml-analysis-tables.sql",
+      "message": "Table ml_predictions created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/ml-analysis-tables.sql",
+      "message": "Table anomaly_detections created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/ml-analysis-tables.sql",
+      "message": "Table test_coverage created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/ml-analysis-tables.sql",
+      "message": "Table code_quality_issues created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/ml-analysis-tables.sql",
+      "message": "Table nexus_ai_insights created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/ml-analysis-tables.sql",
+      "message": "Table nexus_feedback created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/ml-analysis-schema-final.sql",
+      "message": "Table user_deletion_requests created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/ml-analysis-schema-final.sql",
+      "message": "Table user_consents created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/enterprise-ml-analysis-schemas.sql",
+      "message": "Table ml_models created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/enterprise-ml-analysis-schemas.sql",
+      "message": "Table user_deletion_requests created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/enterprise-ml-analysis-schemas.sql",
+      "message": "Table user_consents created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/enterprise-ml-analysis-schemas-fixed.sql",
+      "message": "Table ml_models created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/enterprise-ml-analysis-schemas-fixed.sql",
+      "message": "Table user_deletion_requests created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/enterprise-ml-analysis-schemas-fixed.sql",
+      "message": "Table user_consents created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/complete-tenant-billing-setup.sql",
+      "message": "Table tenant_settings created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/complete-tenant-billing-setup.sql",
+      "message": "Table billing_history created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/complete-tenant-billing-setup.sql",
+      "message": "Table usage_tracking created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "TABLE_MISSING_RLS",
+      "severity": "HIGH",
+      "file": "database/migrations/complete-tenant-billing-setup.sql",
+      "message": "Table subscription_plans created with tenant_id but no RLS enabled"
+    },
+    {
+      "type": "DANGEROUS_PATTERN",
+      "severity": "HIGH",
+      "file": "src/components/tenant/tenant-switcher.tsx",
+      "message": "tenant-switcher.tsx: Tenant data in localStorage - security risk"
+    }
+  ],
+  "secure": [
+    "✅ use-vendors.ts - Has tenant filtering",
+    "✅ use-team-members.ts - Has tenant filtering",
+    "✅ use-tasks.ts - Has tenant filtering",
+    "✅ use-projects.ts - Has tenant filtering",
+    "✅ use-project-locations.ts - Has tenant filtering",
+    "✅ use-events.ts - Has tenant filtering",
+    "✅ use-events-optimized.ts - Has tenant filtering",
+    "✅ use-dashboard-data.ts - Has tenant filtering",
+    "✅ use-contacts.ts - Has tenant filtering",
+    "✅ route.ts - Has tenant validation",
+    "✅ route.ts - Has tenant validation",
+    "✅ route.ts - Has tenant validation",
+    "✅ route.ts - Has tenant validation",
+    "✅ route.ts - Has tenant validation",
+    "✅ route.ts - Has tenant validation",
+    "✅ route.ts - Has tenant validation",
+    "✅ route.ts - Has tenant validation",
+    "✅ tenant-security.ts - Security file exists",
+    "✅ fix-all-rls-clean.sql - Security file exists",
+    "✅ fix-missing-tenant.sql - Security file exists"
+  ],
+  "score": -1305
+}

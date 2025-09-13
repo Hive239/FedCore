@@ -1,0 +1,22 @@
+const nodemailer = require('nodemailer');
+
+async function testEmail() {
+  try {
+    const transporter = nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        user: 'meridiancontracting@gmail.com',
+        pass: 'lisndcdfjjbtppai'
+      }
+    });
+
+    console.log('Testing Gmail connection...');
+    await transporter.verify();
+    console.log('✅ Gmail connection successful!');
+    console.log('Your email configuration is working correctly!');
+  } catch (error) {
+    console.error('❌ Error:', error.message);
+  }
+}
+
+testEmail();

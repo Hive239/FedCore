@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Test</title>
+</head>
+<body>
+    <h1>Testing Project Navigation</h1>
+    <p>The following changes have been implemented:</p>
+    
+    <h2>1. Project Click Navigation ✅</h2>
+    <ul>
+        <li>Clicking on any project row in the Projects page navigates to /projects/{projectId}</li>
+        <li>The Project Control Center shows all project details and 10 folder categories</li>
+        <li>Fixed by removing preventDefault and simplifying click handler</li>
+    </ul>
+    
+    <h2>2. Add Project Functionality ✅</h2>
+    <ul>
+        <li>The "+New Project" button is styled with white background and purple border</li>
+        <li>Clicking it navigates to /projects/new</li>
+        <li>Submitting the form creates a new project and navigates to its detail page</li>
+        <li>New projects are added to the demo data array</li>
+    </ul>
+    
+    <h2>3. Map View ✅</h2>
+    <ul>
+        <li>Created new WorkingMap component with Mapbox GL JS v3</li>
+        <li>Shows 5 demo project locations in NYC with colored markers</li>
+        <li>Markers are color-coded by status (green=in-progress, blue=planning, red=delayed)</li>
+        <li>Clicking markers shows project details in popup and sidebar</li>
+        <li>Includes navigation controls, geolocation, and scale</li>
+    </ul>
+    
+    <h2>How to Test:</h2>
+    <ol>
+        <li>Go to <a href="http://localhost:3001">http://localhost:3001</a></li>
+        <li>Login with: admin@projectpro.com / ProjectPro2024!</li>
+        <li>Navigate to Projects in the sidebar</li>
+        <li>Click on any project row - it should open the Project Control Center</li>
+        <li>Click "+New Project" button - it should open the new project form</li>
+        <li>Navigate to Map in the sidebar - it should show the interactive map with project markers</li>
+    </ol>
+    
+    <p><strong>All features are working on port 3001.</strong></p>
+</body>
+</html>

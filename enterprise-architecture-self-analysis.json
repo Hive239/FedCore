@@ -1,0 +1,1485 @@
+{
+  "timestamp": "2025-08-26T02:35:29.684Z",
+  "analysisId": "self_analysis_1756175729685",
+  "modules": {
+    "app/(auth)/login": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(auth)/signup": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(auth)": {
+      "files": 0,
+      "components": 0,
+      "pages": 0,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 0
+    },
+    "app/(dashboard)/architecture-analysis": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/calendar": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/contacts": {
+      "files": 2,
+      "components": 0,
+      "pages": 1,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 2
+    },
+    "app/(dashboard)/dashboard": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/documents": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/map": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/messages": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/organization/billing": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/organization/settings": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/organization": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/performance/test": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/performance": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/projects/[id]/edit": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/projects/[id]": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/projects/new": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/projects": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/reports": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/search": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/security": {
+      "files": 3,
+      "components": 0,
+      "pages": 1,
+      "utilities": 2,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 3
+    },
+    "app/(dashboard)/settings/performance/test": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/settings/performance": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/settings/project-codes": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/settings/report-templates": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/settings": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/tasks": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/team": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/test-messaging": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)/updates": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/(dashboard)": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/api/architecture/analyze": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/api/architecture": {
+      "files": 0,
+      "components": 0,
+      "pages": 0,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 0
+    },
+    "app/api/auth": {
+      "files": 0,
+      "components": 0,
+      "pages": 0,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 0
+    },
+    "app/api/nexus/ml/feedback": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/api/nexus/ml": {
+      "files": 0,
+      "components": 0,
+      "pages": 0,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 0
+    },
+    "app/api/nexus": {
+      "files": 0,
+      "components": 0,
+      "pages": 0,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 0
+    },
+    "app/api/profile": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/api/settings": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/api/stripe/create-checkout": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/api/stripe/manage-subscription": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/api/stripe": {
+      "files": 0,
+      "components": 0,
+      "pages": 0,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 0
+    },
+    "app/api/tenant/ensure": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/api/tenant": {
+      "files": 0,
+      "components": 0,
+      "pages": 0,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 0
+    },
+    "app/api/webhooks/email": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 0,
+      "hooks": 1,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/api/webhooks/stripe": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 0,
+      "hooks": 1,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/api/webhooks": {
+      "files": 0,
+      "components": 0,
+      "pages": 0,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 0
+    },
+    "app/api": {
+      "files": 0,
+      "components": 0,
+      "pages": 0,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 0
+    },
+    "app/auth/callback": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/auth": {
+      "files": 0,
+      "components": 0,
+      "pages": 0,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 0
+    },
+    "app/clear-sw": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app/offline": {
+      "files": 1,
+      "components": 0,
+      "pages": 1,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "app": {
+      "files": 4,
+      "components": 0,
+      "pages": 1,
+      "utilities": 3,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 4
+    },
+    "components/__tests__": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "components/calendar": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "components/layout": {
+      "files": 2,
+      "components": 0,
+      "pages": 0,
+      "utilities": 2,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 2
+    },
+    "components/map": {
+      "files": 2,
+      "components": 0,
+      "pages": 0,
+      "utilities": 2,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 2
+    },
+    "components/messaging": {
+      "files": 4,
+      "components": 0,
+      "pages": 0,
+      "utilities": 4,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 4
+    },
+    "components/organization": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "components/performance": {
+      "files": 2,
+      "components": 0,
+      "pages": 0,
+      "utilities": 2,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 2
+    },
+    "components/projects": {
+      "files": 2,
+      "components": 0,
+      "pages": 0,
+      "utilities": 2,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 2
+    },
+    "components/providers": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "components/reports": {
+      "files": 3,
+      "components": 0,
+      "pages": 0,
+      "utilities": 3,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 3
+    },
+    "components/tasks": {
+      "files": 6,
+      "components": 0,
+      "pages": 0,
+      "utilities": 6,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 6
+    },
+    "components/team": {
+      "files": 4,
+      "components": 0,
+      "pages": 0,
+      "utilities": 4,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 4
+    },
+    "components/tenant": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "components/test": {
+      "files": 2,
+      "components": 0,
+      "pages": 0,
+      "utilities": 2,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 2
+    },
+    "components/ui": {
+      "files": 27,
+      "components": 0,
+      "pages": 0,
+      "utilities": 27,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 27
+    },
+    "components": {
+      "files": 3,
+      "components": 0,
+      "pages": 0,
+      "utilities": 3,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 3
+    },
+    "contexts": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "hooks/__tests__": {
+      "files": 1,
+      "components": 1,
+      "pages": 0,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "hooks": {
+      "files": 1,
+      "components": 1,
+      "pages": 0,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "lib/__tests__": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "lib/ab-testing": {
+      "files": 2,
+      "components": 0,
+      "pages": 0,
+      "utilities": 2,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 2
+    },
+    "lib/ai": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "lib/cache": {
+      "files": 5,
+      "components": 0,
+      "pages": 0,
+      "utilities": 5,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 5
+    },
+    "lib/cdn": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 2
+    },
+    "lib/database": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "lib/graphql": {
+      "files": 3,
+      "components": 0,
+      "pages": 0,
+      "utilities": 3,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 3
+    },
+    "lib/hooks": {
+      "files": 14,
+      "components": 14,
+      "pages": 0,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 14
+    },
+    "lib/ml": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "lib/performance": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "lib/providers": {
+      "files": 2,
+      "components": 0,
+      "pages": 0,
+      "utilities": 2,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 2
+    },
+    "lib/react-query": {
+      "files": 3,
+      "components": 0,
+      "pages": 0,
+      "utilities": 3,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 3
+    },
+    "lib/security": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "lib/supabase": {
+      "files": 4,
+      "components": 0,
+      "pages": 0,
+      "utilities": 4,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 4
+    },
+    "lib/types": {
+      "files": 2,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 1,
+      "totalLines": 2
+    },
+    "lib/websocket": {
+      "files": 2,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 1,
+      "types": 0,
+      "totalLines": 2
+    },
+    "lib/workers": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    },
+    "lib": {
+      "files": 9,
+      "components": 0,
+      "pages": 0,
+      "utilities": 8,
+      "hooks": 0,
+      "types": 1,
+      "totalLines": 20
+    },
+    "types": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 0,
+      "hooks": 0,
+      "types": 1,
+      "totalLines": 1
+    },
+    "src": {
+      "files": 1,
+      "components": 0,
+      "pages": 0,
+      "utilities": 1,
+      "hooks": 0,
+      "types": 0,
+      "totalLines": 1
+    }
+  },
+  "codeQuality": {
+    "filesAnalyzed": 171,
+    "totalLines": 183,
+    "totalFunctions": 150,
+    "avgComplexity": 1.7953216374269005,
+    "documentationCoverage": 0,
+    "maintainabilityIndex": 0,
+    "issues": [
+      {
+        "file": "/src/app/(dashboard)/projects/[id]/edit/page.tsx",
+        "line": 1,
+        "issue": "\"use client\"\n\nimport { use } from 'react'\nimport { useRouter } from 'next/navigation'\nimport Link from 'next/link'\nimport { ArrowLeft } from 'lucide-react'\nimport { useProject, useUpdateProject } from '@/lib/hooks/use-projects'\nimport { ProjectForm } from '@/components/projects/project-form'\nimport { Button } from '@/components/ui/button'\nimport type { ProjectFormData } from '@/lib/types'\n\nexport default function EditProjectPage({ params }: { params: Promise<{ id: string }> }) {\n  const router = useRouter()\n  const { id } = use(params)\n  const { data: project, isLoading, error } = useProject(id)\n  const updateProject = useUpdateProject()\n\n  const handleSubmit = async (data: ProjectFormData) => {\n    try {\n      await updateProject.mutateAsync({ id, data })\n      router.push(`/projects/${id}`)\n    } catch (error) {\n      console.error('Failed to update project:', error)\n      // TODO: Show error toast\n    }\n  }\n\n  if (isLoading) {\n    return (\n      <div className=\"space-y-6\">\n        <div className=\"h-8 w-48 bg-muted animate-pulse rounded\" />\n        <div className=\"h-96 bg-muted animate-pulse rounded\" />\n      </div>\n    )\n  }\n\n  if (error || !project) {\n    return (\n      <div className=\"flex flex-col items-center justify-center h-96 gap-4\">\n        <p className=\"text-destructive\">Project not found</p>\n        <Button asChild variant=\"outline\">\n          <Link href=\"/projects\">\n            <ArrowLeft className=\"mr-2 h-4 w-4\" />\n            Back to Projects\n          </Link>\n        </Button>\n      </div>\n    )\n  }\n\n  return (\n    <div className=\"space-y-6\">\n      <div className=\"flex items-center gap-4\">\n        <Button\n          variant=\"ghost\"\n          size=\"icon\"\n          onClick={() => router.back()}\n        >\n          <ArrowLeft className=\"h-4 w-4\" />\n        </Button>\n        <div>\n          <h1 className=\"text-3xl font-bold tracking-tight\">Edit Project</h1>\n          <p className=\"text-muted-foreground\">\n            Update project details\n          </p>\n        </div>\n      </div>\n\n      <ProjectForm \n        project={project}\n        onSubmit={handleSubmit}\n        isLoading={updateProject.isPending}\n      />\n    </div>\n  )\n}",
+        "type": "todo"
+      },
+      {
+        "file": "/src/app/api/stripe/manage-subscription/route.ts",
+        "line": 1,
+        "issue": "import { NextResponse } from 'next/server'\nimport Stripe from 'stripe'\nimport { createClient } from '@/lib/supabase/server'\n\nconst stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {\n  apiVersion: '2025-07-30.basil',\n})\n\n// Cancel subscription\nexport async function DELETE(request: Request) {\n  try {\n    const supabase = await createClient()\n    const { data: { user } } = await supabase.auth.getUser()\n    \n    if (!user) {\n      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })\n    }\n\n    const { tenantId } = await request.json()\n\n    // Get tenant's subscription ID\n    const { data: tenant } = await supabase\n      .from('tenants')\n      .select('stripe_subscription_id')\n      .eq('id', tenantId)\n      .single()\n\n    if (!tenant?.stripe_subscription_id) {\n      return NextResponse.json({ error: 'No active subscription' }, { status: 404 })\n    }\n\n    // Cancel subscription at period end\n    const subscription = await stripe.subscriptions.update(\n      tenant.stripe_subscription_id,\n      {\n        cancel_at_period_end: true,\n      }\n    )\n\n    // Update tenant status\n    await supabase\n      .from('tenants')\n      .update({\n        subscription_status: 'canceled',\n        updated_at: new Date().toISOString(),\n      })\n      .eq('id', tenantId)\n\n    return NextResponse.json({ \n      message: 'Subscription will be canceled at the end of the billing period',\n      cancel_at: subscription.cancel_at,\n    })\n  } catch (error: any) {\n    console.error('Cancel subscription error:', error)\n    return NextResponse.json(\n      { error: 'Failed to cancel subscription' },\n      { status: 500 }\n    )\n  }\n}\n\n// Update subscription (upgrade/downgrade)\nexport async function PUT(request: Request) {\n  try {\n    const supabase = await createClient()\n    const { data: { user } } = await supabase.auth.getUser()\n    \n    if (!user) {\n      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })\n    }\n\n    const { tenantId, newPriceId } = await request.json()\n\n    // Get tenant's subscription\n    const { data: tenant } = await supabase\n      .from('tenants')\n      .select('stripe_subscription_id, stripe_customer_id')\n      .eq('id', tenantId)\n      .single()\n\n    if (!tenant?.stripe_subscription_id) {\n      return NextResponse.json({ error: 'No active subscription' }, { status: 404 })\n    }\n\n    // Get current subscription\n    const subscription = await stripe.subscriptions.retrieve(tenant.stripe_subscription_id)\n\n    // Update subscription with new price\n    const updatedSubscription = await stripe.subscriptions.update(\n      tenant.stripe_subscription_id,\n      {\n        items: [\n          {\n            id: subscription.items.data[0].id,\n            price: newPriceId,\n          },\n        ],\n        proration_behavior: 'create_prorations',\n      }\n    )\n\n    return NextResponse.json({ \n      message: 'Subscription updated successfully',\n      subscription: updatedSubscription,\n    })\n  } catch (error: any) {\n    console.error('Update subscription error:', error)\n    return NextResponse.json(\n      { error: 'Failed to update subscription' },\n      { status: 500 }\n    )\n  }\n}\n\n// Get subscription details\nexport async function GET(request: Request) {\n  try {\n    const supabase = await createClient()\n    const { data: { user } } = await supabase.auth.getUser()\n    \n    if (!user) {\n      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })\n    }\n\n    const { searchParams } = new URL(request.url)\n    const tenantId = searchParams.get('tenantId')\n\n    if (!tenantId) {\n      return NextResponse.json({ error: 'Tenant ID required' }, { status: 400 })\n    }\n\n    // Get tenant's subscription\n    const { data: tenant } = await supabase\n      .from('tenants')\n      .select('stripe_subscription_id, stripe_customer_id')\n      .eq('id', tenantId)\n      .single()\n\n    if (!tenant?.stripe_subscription_id) {\n      return NextResponse.json({ subscription: null })\n    }\n\n    // Get subscription from Stripe\n    const subscription = await stripe.subscriptions.retrieve(\n      tenant.stripe_subscription_id,\n      {\n        expand: ['items.data.price.product', 'latest_invoice'],\n      }\n    )\n\n    // Get upcoming invoice\n    let upcomingInvoice = null\n    // TODO: Fix Stripe API call for upcoming invoice\n    // try {\n    //   upcomingInvoice = await stripe.invoices.upcoming({\n    //     customer: tenant.stripe_customer_id,\n    //   })\n    // } catch (e) {\n    //   // No upcoming invoice\n    // }\n\n    return NextResponse.json({ \n      subscription,\n      upcomingInvoice,\n    })\n  } catch (error: any) {\n    console.error('Get subscription error:', error)\n    return NextResponse.json(\n      { error: 'Failed to get subscription' },\n      { status: 500 }\n    )\n  }\n}",
+        "type": "todo"
+      },
+      {
+        "file": "/src/app/api/webhooks/stripe/route.ts",
+        "line": 1,
+        "issue": "import { headers } from 'next/headers'\nimport { NextResponse } from 'next/server'\nimport Stripe from 'stripe'\nimport { createClient } from '@/lib/supabase/server'\n\n// Initialize Stripe\nconst stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {\n  apiVersion: '2025-07-30.basil',\n})\n\nconst webhookSecret = process.env.STRIPE_WEBHOOK_SECRET!\n\nexport async function POST(request: Request) {\n  try {\n    const body = await request.text()\n    const headersList = await headers()\n    const signature = headersList.get('stripe-signature')!\n\n    // Verify webhook signature\n    let event: Stripe.Event\n    try {\n      event = stripe.webhooks.constructEvent(body, signature, webhookSecret)\n    } catch (err: any) {\n      console.error('Webhook signature verification failed:', err.message)\n      return NextResponse.json({ error: 'Invalid signature' }, { status: 400 })\n    }\n\n    const supabase = await createClient()\n\n    // Handle different event types\n    switch (event.type) {\n      case 'customer.subscription.created':\n      case 'customer.subscription.updated': {\n        const subscription = event.data.object as Stripe.Subscription\n        await handleSubscriptionUpdate(supabase, subscription)\n        break\n      }\n\n      case 'customer.subscription.deleted': {\n        const subscription = event.data.object as Stripe.Subscription\n        await handleSubscriptionCanceled(supabase, subscription)\n        break\n      }\n\n      case 'invoice.payment_succeeded': {\n        const invoice = event.data.object as Stripe.Invoice\n        await handlePaymentSucceeded(supabase, invoice)\n        break\n      }\n\n      case 'invoice.payment_failed': {\n        const invoice = event.data.object as Stripe.Invoice\n        await handlePaymentFailed(supabase, invoice)\n        break\n      }\n\n      case 'customer.created': {\n        const customer = event.data.object as Stripe.Customer\n        await handleCustomerCreated(supabase, customer)\n        break\n      }\n\n      case 'checkout.session.completed': {\n        const session = event.data.object as Stripe.Checkout.Session\n        await handleCheckoutCompleted(supabase, session)\n        break\n      }\n\n      default:\n        console.log(`Unhandled event type: ${event.type}`)\n    }\n\n    return NextResponse.json({ received: true })\n  } catch (error) {\n    console.error('Webhook error:', error)\n    return NextResponse.json({ error: 'Webhook handler failed' }, { status: 500 })\n  }\n}\n\n// Handler functions\nasync function handleSubscriptionUpdate(\n  supabase: any,\n  subscription: Stripe.Subscription\n) {\n  const customerId = subscription.customer as string\n  const status = subscription.status\n  const currentPeriodEnd = new Date((subscription as any).current_period_end * 1000)\n  \n  // Get price details\n  const priceId = subscription.items.data[0]?.price.id\n  const tier = mapPriceToTier(priceId)\n  \n  // Update tenant subscription\n  const { error } = await supabase\n    .from('tenants')\n    .update({\n      stripe_subscription_id: subscription.id,\n      subscription_status: mapStripeStatus(status),\n      subscription_tier: tier,\n      updated_at: new Date().toISOString(),\n    })\n    .eq('stripe_customer_id', customerId)\n\n  if (error) {\n    console.error('Error updating subscription:', error)\n    throw error\n  }\n\n  // Track the subscription change\n  await supabase\n    .from('subscription_history')\n    .insert({\n      tenant_id: await getTenantIdByCustomerId(supabase, customerId),\n      event_type: 'subscription_updated',\n      stripe_event_id: subscription.id,\n      details: {\n        status,\n        tier,\n        current_period_end: currentPeriodEnd,\n      },\n    })\n}\n\nasync function handleSubscriptionCanceled(\n  supabase: any,\n  subscription: Stripe.Subscription\n) {\n  const customerId = subscription.customer as string\n  \n  // Update tenant to free/canceled status\n  const { error } = await supabase\n    .from('tenants')\n    .update({\n      subscription_status: 'canceled',\n      subscription_tier: 'starter', // Downgrade to free tier\n      updated_at: new Date().toISOString(),\n    })\n    .eq('stripe_customer_id', customerId)\n\n  if (error) {\n    console.error('Error canceling subscription:', error)\n    throw error\n  }\n}\n\nasync function handlePaymentSucceeded(\n  supabase: any,\n  invoice: Stripe.Invoice\n) {\n  const customerId = invoice.customer as string\n  const tenantId = await getTenantIdByCustomerId(supabase, customerId)\n  \n  // Record successful payment\n  const { error } = await supabase\n    .from('billing_history')\n    .insert({\n      tenant_id: tenantId,\n      invoice_number: invoice.number || `INV-${invoice.id}`,\n      stripe_invoice_id: invoice.id,\n      amount_cents: invoice.amount_paid,\n      currency: invoice.currency,\n      status: 'paid',\n      period_start: new Date(invoice.period_start * 1000),\n      period_end: new Date(invoice.period_end * 1000),\n      paid_at: new Date().toISOString(),\n      line_items: invoice.lines.data.map(line => ({\n        description: line.description,\n        amount: line.amount,\n        quantity: line.quantity,\n      })),\n    })\n\n  if (error) {\n    console.error('Error recording payment:', error)\n    throw error\n  }\n\n  // Update subscription status to active if it was past_due\n  await supabase\n    .from('tenants')\n    .update({\n      subscription_status: 'active',\n    })\n    .eq('stripe_customer_id', customerId)\n    .eq('subscription_status', 'past_due')\n}\n\nasync function handlePaymentFailed(\n  supabase: any,\n  invoice: Stripe.Invoice\n) {\n  const customerId = invoice.customer as string\n  const tenantId = await getTenantIdByCustomerId(supabase, customerId)\n  \n  // Record failed payment\n  await supabase\n    .from('billing_history')\n    .insert({\n      tenant_id: tenantId,\n      invoice_number: invoice.number || `INV-${invoice.id}`,\n      stripe_invoice_id: invoice.id,\n      amount_cents: invoice.amount_due,\n      currency: invoice.currency,\n      status: 'failed',\n      period_start: new Date(invoice.period_start * 1000),\n      period_end: new Date(invoice.period_end * 1000),\n    })\n\n  // Update subscription status\n  await supabase\n    .from('tenants')\n    .update({\n      subscription_status: 'past_due',\n    })\n    .eq('stripe_customer_id', customerId)\n\n  // TODO: Send email notification about failed payment\n}\n\nasync function handleCustomerCreated(\n  supabase: any,\n  customer: Stripe.Customer\n) {\n  // This is typically handled during signup, but we'll update if needed\n  const email = customer.email\n  \n  if (email) {\n    // Find tenant by billing email and update Stripe customer ID\n    await supabase\n      .from('tenants')\n      .update({\n        stripe_customer_id: customer.id,\n      })\n      .eq('billing_email', email)\n  }\n}\n\nasync function handleCheckoutCompleted(\n  supabase: any,\n  session: Stripe.Checkout.Session\n) {\n  const customerId = session.customer as string\n  const subscriptionId = session.subscription as string\n  \n  // Update tenant with subscription details\n  await supabase\n    .from('tenants')\n    .update({\n      stripe_customer_id: customerId,\n      stripe_subscription_id: subscriptionId,\n      subscription_status: 'active',\n    })\n    .eq('id', session.metadata?.tenant_id)\n}\n\n// Helper functions\nfunction mapPriceToTier(priceId: string): string {\n  // Map your Stripe price IDs to tiers\n  const priceTierMap: Record<string, string> = {\n    [process.env.STRIPE_STARTER_PRICE_ID!]: 'starter',\n    [process.env.STRIPE_PROFESSIONAL_PRICE_ID!]: 'professional',\n    [process.env.STRIPE_ENTERPRISE_PRICE_ID!]: 'enterprise',\n  }\n  return priceTierMap[priceId] || 'starter'\n}\n\nfunction mapStripeStatus(status: string): string {\n  const statusMap: Record<string, string> = {\n    'active': 'active',\n    'past_due': 'past_due',\n    'canceled': 'canceled',\n    'incomplete': 'pending',\n    'incomplete_expired': 'canceled',\n    'trialing': 'trialing',\n    'unpaid': 'past_due',\n  }\n  return statusMap[status] || 'active'\n}\n\nasync function getTenantIdByCustomerId(\n  supabase: any,\n  customerId: string\n): Promise<string> {\n  const { data, error } = await supabase\n    .from('tenants')\n    .select('id')\n    .eq('stripe_customer_id', customerId)\n    .single()\n\n  if (error || !data) {\n    throw new Error(`Tenant not found for customer ${customerId}`)\n  }\n\n  return data.id\n}\n\n// Also create a table to track subscription events\nconst createSubscriptionHistoryTable = `\nCREATE TABLE IF NOT EXISTS subscription_history (\n  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,\n  tenant_id UUID REFERENCES tenants(id) ON DELETE CASCADE,\n  event_type TEXT NOT NULL,\n  stripe_event_id TEXT,\n  details JSONB,\n  created_at TIMESTAMPTZ DEFAULT NOW()\n);\n\nCREATE INDEX idx_subscription_history_tenant ON subscription_history(tenant_id);\nCREATE INDEX idx_subscription_history_event ON subscription_history(stripe_event_id);\n`",
+        "type": "debugging"
+      },
+      {
+        "file": "/src/components/projects/project-form.tsx",
+        "line": 1,
+        "issue": "\"use client\"\n\nimport { useState, useEffect } from 'react'\nimport { useRouter } from 'next/navigation'\nimport { Calendar, DollarSign, Building } from 'lucide-react'\nimport { Button } from '@/components/ui/button'\nimport { Input } from '@/components/ui/input'\nimport { Label } from '@/components/ui/label'\nimport { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'\nimport type { Project, ProjectFormData, ProjectWithRelations } from '@/lib/types'\n\ninterface ProjectFormProps {\n  project?: Project | ProjectWithRelations\n  onSubmit: (data: ProjectFormData) => Promise<void>\n  isLoading?: boolean\n}\n\nexport function ProjectForm({ project, onSubmit, isLoading }: ProjectFormProps) {\n  const router = useRouter()\n  const [formData, setFormData] = useState<ProjectFormData>({\n    name: '',\n    description: '',\n    status: 'new',\n    budget: undefined,\n    start_date: '',\n    end_date: '',\n    association_id: ''\n  })\n\n  useEffect(() => {\n    if (project) {\n      const proj = project as any\n      setFormData({\n        name: proj.name,\n        description: proj.description || '',\n        status: proj.status,\n        budget: proj.budget || undefined,\n        start_date: proj.start_date || '',\n        end_date: proj.end_date || '',\n        association_id: proj.association_id || ''\n      })\n    }\n  }, [project])\n\n  const handleSubmit = async (e: React.FormEvent) => {\n    e.preventDefault()\n    \n    // Basic validation\n    if (!formData.name.trim()) {\n      alert('Project name is required')\n      return\n    }\n    \n    if (formData.budget && parseFloat(formData.budget) < 0) {\n      alert('Budget must be a positive number')\n      return\n    }\n    \n    if (formData.start_date && formData.end_date) {\n      if (new Date(formData.start_date) > new Date(formData.end_date)) {\n        alert('End date must be after start date')\n        return\n      }\n    }\n    \n    await onSubmit(formData)\n  }\n\n  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {\n    const { name, value } = e.target\n    setFormData(prev => ({\n      ...prev,\n      [name]: name === 'budget' ? (value ? parseFloat(value) : undefined) : value\n    }))\n  }\n\n  return (\n    <form onSubmit={handleSubmit} className=\"space-y-6\">\n      <Card>\n        <CardHeader>\n          <CardTitle>Project Information</CardTitle>\n          <CardDescription>\n            Basic details about your project\n          </CardDescription>\n        </CardHeader>\n        <CardContent className=\"space-y-4\">\n          <div className=\"space-y-2\">\n            <Label htmlFor=\"name\">Project Name *</Label>\n            <Input\n              id=\"name\"\n              name=\"name\"\n              value={formData.name}\n              onChange={handleChange}\n              placeholder=\"Enter project name\"\n              required\n            />\n          </div>\n\n          <div className=\"space-y-2\">\n            <Label htmlFor=\"description\">Description</Label>\n            <textarea\n              id=\"description\"\n              name=\"description\"\n              value={formData.description}\n              onChange={handleChange}\n              placeholder=\"Describe the project...\"\n              className=\"w-full min-h-[100px] px-3 py-2 text-sm rounded-md border border-input bg-background\"\n            />\n          </div>\n\n          <div className=\"grid gap-4 md:grid-cols-2\">\n            <div className=\"space-y-2\">\n              <Label htmlFor=\"status\">Status</Label>\n              <select\n                id=\"status\"\n                name=\"status\"\n                value={formData.status}\n                onChange={handleChange}\n                className=\"w-full h-10 px-3 py-2 text-sm rounded-md border border-input bg-background\"\n              >\n                <option value=\"new\">New</option>\n                <option value=\"on-track\">On Track</option>\n                <option value=\"delayed\">Delayed</option>\n                <option value=\"on-hold\">On Hold</option>\n                <option value=\"completed\">Completed</option>\n              </select>\n            </div>\n\n            <div className=\"space-y-2\">\n              <Label htmlFor=\"budget\">Budget</Label>\n              <div className=\"relative\">\n                <DollarSign className=\"absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground\" />\n                <Input\n                  id=\"budget\"\n                  name=\"budget\"\n                  type=\"number\"\n                  value={formData.budget || ''}\n                  onChange={handleChange}\n                  placeholder=\"0.00\"\n                  className=\"pl-9\"\n                  step=\"0.01\"\n                  min=\"0\"\n                />\n              </div>\n            </div>\n          </div>\n        </CardContent>\n      </Card>\n\n      <Card>\n        <CardHeader>\n          <CardTitle>Timeline & Assignment</CardTitle>\n          <CardDescription>\n            Schedule and property association\n          </CardDescription>\n        </CardHeader>\n        <CardContent className=\"space-y-4\">\n          <div className=\"grid gap-4 md:grid-cols-2\">\n            <div className=\"space-y-2\">\n              <Label htmlFor=\"start_date\">Start Date</Label>\n              <div className=\"relative\">\n                <Calendar className=\"absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground\" />\n                <Input\n                  id=\"start_date\"\n                  name=\"start_date\"\n                  type=\"date\"\n                  value={formData.start_date}\n                  onChange={handleChange}\n                  className=\"pl-9\"\n                />\n              </div>\n            </div>\n\n            <div className=\"space-y-2\">\n              <Label htmlFor=\"end_date\">End Date</Label>\n              <div className=\"relative\">\n                <Calendar className=\"absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground\" />\n                <Input\n                  id=\"end_date\"\n                  name=\"end_date\"\n                  type=\"date\"\n                  value={formData.end_date}\n                  onChange={handleChange}\n                  className=\"pl-9\"\n                />\n              </div>\n            </div>\n          </div>\n\n          <div className=\"space-y-2\">\n            <Label htmlFor=\"association_id\">Property/Association</Label>\n            <div className=\"relative\">\n              <Building className=\"absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground\" />\n              <select\n                id=\"association_id\"\n                name=\"association_id\"\n                value={formData.association_id}\n                onChange={handleChange}\n                className=\"w-full h-10 pl-9 pr-3 py-2 text-sm rounded-md border border-input bg-background\"\n              >\n                <option value=\"\">Select a property...</option>\n                {/* TODO: Load associations from API */}\n                <option value=\"1\">Sunset Ridge HOA</option>\n                <option value=\"2\">Oak Park Condos</option>\n                <option value=\"3\">Riverside Apartments</option>\n              </select>\n            </div>\n          </div>\n        </CardContent>\n      </Card>\n\n      <div className=\"flex justify-end gap-4\">\n        <Button\n          type=\"button\"\n          variant=\"outline\"\n          onClick={() => router.back()}\n          disabled={isLoading}\n        >\n          Cancel\n        </Button>\n        <Button type=\"submit\" disabled={isLoading}>\n          {isLoading ? 'Saving...' : (project ? 'Update Project' : 'Create Project')}\n        </Button>\n      </div>\n    </form>\n  )\n}",
+        "type": "todo"
+      },
+      {
+        "file": "/src/components/tasks/task-card.tsx",
+        "line": 1,
+        "issue": "\"use client\"\n\nimport { useSortable } from '@dnd-kit/sortable'\nimport { CSS } from '@dnd-kit/utilities'\nimport { Calendar, User, Flag, MoreVertical } from 'lucide-react'\nimport { Card, CardContent } from '@/components/ui/card'\nimport { Button } from '@/components/ui/button'\nimport { cn } from '@/lib/utils'\nimport type { Task } from '@/lib/types'\n\ninterface TaskCardProps {\n  task: any // Temporarily use any to avoid build issues\n  isDragging?: boolean\n}\n\nconst priorityColors: Record<string, string> = {\n  low: 'priority-low',\n  medium: 'priority-medium',\n  high: 'priority-high',\n  urgent: 'priority-urgent',\n}\n\nconst priorityLabels: Record<string, string> = {\n  low: 'Low',\n  medium: 'Medium',\n  high: 'High',\n  urgent: 'Urgent',\n}\n\nexport function TaskCard({ task, isDragging }: TaskCardProps) {\n  const {\n    attributes,\n    listeners,\n    setNodeRef,\n    transform,\n    transition,\n    isDragging: isSortableDragging,\n  } = useSortable({ id: task.id })\n\n  const style = {\n    transform: CSS.Transform.toString(transform),\n    transition,\n  }\n\n  const isOverdue = task.due_date && new Date(task.due_date) < new Date()\n\n  return (\n    <div\n      ref={setNodeRef}\n      style={style}\n      className={cn(\n        \"coreiq-card cursor-move transition-all\",\n        (isDragging || isSortableDragging) && \"opacity-50\",\n        \"hover:shadow-lg\"\n      )}\n      {...attributes}\n      {...listeners}\n    >\n      <div className=\"card-body p-3 space-y-2\">\n        <div className=\"flex items-start justify-between gap-2\">\n          <h4 className=\"text-sm font-medium line-clamp-2\">{task.title}</h4>\n          <Button\n            variant=\"ghost\"\n            size=\"icon\"\n            className=\"h-6 w-6 flex-shrink-0\"\n            onClick={(e) => {\n              e.stopPropagation()\n              // TODO: Open task menu\n            }}\n          >\n            <MoreVertical className=\"h-3 w-3\" />\n          </Button>\n        </div>\n\n        {task.description && (\n          <p className=\"text-xs text-muted-foreground line-clamp-2\">\n            {task.description}\n          </p>\n        )}\n\n        <div className=\"flex items-center gap-3 text-xs\">\n          {task.due_date && (\n            <div className={cn(\n              \"flex items-center gap-1\",\n              isOverdue && \"text-destructive\"\n            )}>\n              <Calendar className=\"h-3 w-3\" />\n              <span>\n                {new Date(task.due_date).toLocaleDateString()}\n              </span>\n            </div>\n          )}\n\n          <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs ${priorityColors[task?.priority as keyof typeof priorityColors] || ''}`}>\n            <Flag className=\"h-3 w-3\" />\n            {priorityLabels[task?.priority as keyof typeof priorityLabels] || 'Unknown'}\n          </span>\n        </div>\n\n        {task.assignee && (\n          <div className=\"flex items-center gap-2 text-xs text-muted-foreground\">\n            <User className=\"h-3 w-3\" />\n            <span>{task.assignee.full_name || task.assignee.email}</span>\n          </div>\n        )}\n\n        {task.project && (\n          <div className=\"text-xs text-muted-foreground truncate\">\n            {task.project.name}\n          </div>\n        )}\n      </div>\n    </div>\n  )\n}",
+        "type": "todo"
+      },
+      {
+        "file": "/src/components/team/invite-team-member.tsx",
+        "line": 1,
+        "issue": "\"use client\"\n\nimport { useState } from 'react'\nimport { Button } from '@/components/ui/button'\nimport { Input } from '@/components/ui/input'\nimport { Label } from '@/components/ui/label'\nimport {\n  Dialog,\n  DialogContent,\n  DialogDescription,\n  DialogFooter,\n  DialogHeader,\n  DialogTitle,\n  DialogTrigger,\n} from '@/components/ui/dialog'\nimport {\n  Select,\n  SelectContent,\n  SelectItem,\n  SelectTrigger,\n  SelectValue,\n} from '@/components/ui/select'\nimport { UserPlus, Mail, Copy, Check } from 'lucide-react'\nimport { createClient } from '@/lib/supabase/client'\nimport { toast } from '@/hooks/use-toast'\n\ninterface InviteTeamMemberProps {\n  tenantId?: string\n  onInviteSent?: () => void\n}\n\nexport function InviteTeamMember({ tenantId, onInviteSent }: InviteTeamMemberProps) {\n  const [open, setOpen] = useState(false)\n  const [email, setEmail] = useState('')\n  const [role, setRole] = useState('member')\n  const [loading, setLoading] = useState(false)\n  const [inviteLink, setInviteLink] = useState('')\n  const [copied, setCopied] = useState(false)\n  const supabase = createClient()\n\n  const roles = [\n    { value: 'admin', label: 'Admin', description: 'Full access to manage projects and team' },\n    { value: 'manager', label: 'Manager', description: 'Can manage projects and tasks' },\n    { value: 'member', label: 'Member', description: 'Can create and edit tasks' },\n    { value: 'viewer', label: 'Viewer', description: 'Read-only access' },\n  ]\n\n  const handleInvite = async () => {\n    if (!email) {\n      toast({\n        title: 'Error',\n        description: 'Please enter an email address',\n        variant: 'destructive',\n      })\n      return\n    }\n\n    setLoading(true)\n    try {\n      // Get current user and tenant\n      const { data: { user } } = await supabase.auth.getUser()\n      if (!user) throw new Error('Not authenticated')\n\n      // Get user's tenant if not provided\n      let currentTenantId = tenantId\n      if (!currentTenantId) {\n        const { data: userTenant } = await supabase\n          .from('user_tenants')\n          .select('tenant_id')\n          .eq('user_id', user.id)\n          .single()\n        \n        if (!userTenant) throw new Error('No tenant found')\n        currentTenantId = userTenant.tenant_id\n      }\n\n      // Call the invite function\n      const { data, error } = await supabase.rpc('invite_team_member', {\n        p_tenant_id: currentTenantId,\n        p_email: email,\n        p_role: role,\n        p_invited_by: user.id\n      })\n\n      if (error) throw error\n\n      if (data?.[0]?.success) {\n        // Generate invite link\n        const baseUrl = window.location.origin\n        const link = `${baseUrl}/signup?invite=${data[0].invitation_token}`\n        setInviteLink(link)\n        \n        toast({\n          title: 'Success',\n          description: 'Invitation created successfully',\n        })\n        \n        // TODO: Send invitation email via Supabase Edge Function or email service\n        // For now, show the link to copy\n        \n        if (onInviteSent) onInviteSent()\n      } else {\n        throw new Error(data?.[0]?.message || 'Failed to create invitation')\n      }\n    } catch (error: any) {\n      console.error('Error inviting team member:', error)\n      toast({\n        title: 'Error',\n        description: error.message || 'Failed to send invitation',\n        variant: 'destructive',\n      })\n    } finally {\n      setLoading(false)\n    }\n  }\n\n  const copyInviteLink = () => {\n    navigator.clipboard.writeText(inviteLink)\n    setCopied(true)\n    setTimeout(() => setCopied(false), 2000)\n    toast({\n      title: 'Copied!',\n      description: 'Invite link copied to clipboard',\n    })\n  }\n\n  const resetForm = () => {\n    setEmail('')\n    setRole('member')\n    setInviteLink('')\n    setCopied(false)\n  }\n\n  return (\n    <Dialog open={open} onOpenChange={(isOpen) => {\n      setOpen(isOpen)\n      if (!isOpen) resetForm()\n    }}>\n      <DialogTrigger asChild>\n        <Button>\n          <UserPlus className=\"mr-2 h-4 w-4\" />\n          Invite Team Member\n        </Button>\n      </DialogTrigger>\n      <DialogContent className=\"sm:max-w-md\">\n        <DialogHeader>\n          <DialogTitle>Invite Team Member</DialogTitle>\n          <DialogDescription>\n            Send an invitation to join your organization\n          </DialogDescription>\n        </DialogHeader>\n        \n        {!inviteLink ? (\n          <div className=\"space-y-4 py-4\">\n            <div className=\"space-y-2\">\n              <Label htmlFor=\"email\">Email Address</Label>\n              <Input\n                id=\"email\"\n                type=\"email\"\n                placeholder=\"colleague@example.com\"\n                value={email}\n                onChange={(e) => setEmail(e.target.value)}\n              />\n            </div>\n            \n            <div className=\"space-y-2\">\n              <Label htmlFor=\"role\">Role</Label>\n              <Select value={role} onValueChange={setRole}>\n                <SelectTrigger>\n                  <SelectValue />\n                </SelectTrigger>\n                <SelectContent>\n                  {roles.map((r) => (\n                    <SelectItem key={r.value} value={r.value}>\n                      <div>\n                        <div className=\"font-medium\">{r.label}</div>\n                        <div className=\"text-xs text-muted-foreground\">\n                          {r.description}\n                        </div>\n                      </div>\n                    </SelectItem>\n                  ))}\n                </SelectContent>\n              </Select>\n            </div>\n          </div>\n        ) : (\n          <div className=\"space-y-4 py-4\">\n            <div className=\"flex items-center space-x-2 text-sm\">\n              <Mail className=\"h-4 w-4 text-muted-foreground\" />\n              <span>Invitation created for <strong>{email}</strong></span>\n            </div>\n            \n            <div className=\"space-y-2\">\n              <Label>Invitation Link</Label>\n              <div className=\"flex space-x-2\">\n                <Input\n                  value={inviteLink}\n                  readOnly\n                  className=\"font-mono text-xs\"\n                />\n                <Button\n                  size=\"icon\"\n                  variant=\"outline\"\n                  onClick={copyInviteLink}\n                >\n                  {copied ? (\n                    <Check className=\"h-4 w-4\" />\n                  ) : (\n                    <Copy className=\"h-4 w-4\" />\n                  )}\n                </Button>\n              </div>\n              <p className=\"text-xs text-muted-foreground\">\n                Share this link with {email} to invite them to your organization\n              </p>\n            </div>\n          </div>\n        )}\n        \n        <DialogFooter>\n          {!inviteLink ? (\n            <>\n              <Button\n                variant=\"outline\"\n                onClick={() => setOpen(false)}\n              >\n                Cancel\n              </Button>\n              <Button\n                onClick={handleInvite}\n                disabled={loading || !email}\n              >\n                {loading ? 'Sending...' : 'Send Invitation'}\n              </Button>\n            </>\n          ) : (\n            <>\n              <Button\n                variant=\"outline\"\n                onClick={() => {\n                  resetForm()\n                }}\n              >\n                Invite Another\n              </Button>\n              <Button onClick={() => setOpen(false)}>\n                Done\n              </Button>\n            </>\n          )}\n        </DialogFooter>\n      </DialogContent>\n    </Dialog>\n  )\n}",
+        "type": "todo"
+      },
+      {
+        "file": "/src/lib/graphql/schema.ts",
+        "line": 1,
+        "issue": "import { gql } from 'graphql-tag'\n\nexport const typeDefs = gql`\n  scalar DateTime\n  scalar JSON\n\n  type Query {\n    # Project queries\n    project(id: ID!): Project\n    projects(\n      first: Int\n      after: String\n      filter: ProjectFilter\n      orderBy: ProjectOrderBy\n    ): ProjectConnection!\n    \n    # Task queries\n    task(id: ID!): Task\n    tasks(\n      first: Int\n      after: String\n      filter: TaskFilter\n      orderBy: TaskOrderBy\n    ): TaskConnection!\n    \n    # User queries\n    user(id: ID!): User\n    currentUser: User\n    team(tenantId: ID!): [User!]!\n    \n    # Performance metrics\n    performanceMetrics(\n      tenantId: ID!\n      startDate: DateTime\n      endDate: DateTime\n    ): PerformanceMetrics!\n    \n    # Architecture analysis\n    architectureReport(id: ID!): ArchitectureReport\n    latestArchitectureReport(tenantId: ID!): ArchitectureReport\n  }\n\n  type Mutation {\n    # Project mutations\n    createProject(input: CreateProjectInput!): Project!\n    updateProject(id: ID!, input: UpdateProjectInput!): Project!\n    deleteProject(id: ID!): Boolean!\n    \n    # Task mutations\n    createTask(input: CreateTaskInput!): Task!\n    updateTask(id: ID!, input: UpdateTaskInput!): Task!\n    deleteTask(id: ID!): Boolean!\n    \n    # Cache mutations\n    invalidateCache(pattern: String!): Boolean!\n    warmupCache(queries: [String!]!): Boolean!\n  }\n\n  type Subscription {\n    projectUpdated(id: ID!): Project!\n    taskUpdated(projectId: ID!): Task!\n    performanceAlert(tenantId: ID!): PerformanceAlert!\n  }\n\n  # Core Types\n  type Project {\n    id: ID!\n    name: String!\n    description: String\n    status: ProjectStatus!\n    priority: Priority!\n    startDate: DateTime\n    endDate: DateTime\n    progress: Int!\n    budget: Float\n    spent: Float\n    tasks(first: Int, after: String): TaskConnection!\n    team: [User!]!\n    createdAt: DateTime!\n    updatedAt: DateTime!\n  }\n\n  type Task {\n    id: ID!\n    title: String!\n    description: String\n    status: TaskStatus!\n    priority: Priority!\n    assignee: User\n    project: Project!\n    dueDate: DateTime\n    completedAt: DateTime\n    timeEstimate: Int\n    timeSpent: Int\n    subtasks: [Task!]!\n    attachments: [Attachment!]!\n    comments(first: Int, after: String): CommentConnection!\n    createdAt: DateTime!\n    updatedAt: DateTime!\n  }\n\n  type User {\n    id: ID!\n    email: String!\n    name: String\n    role: UserRole!\n    avatar: String\n    department: String\n    projects: [Project!]!\n    tasks: [Task!]!\n    performanceScore: Int\n    lastActiveAt: DateTime\n    createdAt: DateTime!\n  }\n\n  type PerformanceMetrics {\n    cpuUsage: Float!\n    memoryUsage: Float!\n    responseTime: Float!\n    errorRate: Float!\n    throughput: Int!\n    activeUsers: Int!\n    cacheHitRate: Float!\n    databaseLatency: Float!\n    timestamp: DateTime!\n  }\n\n  type ArchitectureReport {\n    id: ID!\n    productionReadinessScore: Int!\n    security: SecurityAnalysis!\n    performance: PerformanceAnalysis!\n    codeQuality: CodeQualityAnalysis!\n    dependencies: DependencyAnalysis!\n    mlInsights: MLInsights!\n    createdAt: DateTime!\n  }\n\n  # Pagination Types\n  type ProjectConnection {\n    edges: [ProjectEdge!]!\n    pageInfo: PageInfo!\n    totalCount: Int!\n  }\n\n  type ProjectEdge {\n    node: Project!\n    cursor: String!\n  }\n\n  type TaskConnection {\n    edges: [TaskEdge!]!\n    pageInfo: PageInfo!\n    totalCount: Int!\n  }\n\n  type TaskEdge {\n    node: Task!\n    cursor: String!\n  }\n\n  type CommentConnection {\n    edges: [CommentEdge!]!\n    pageInfo: PageInfo!\n    totalCount: Int!\n  }\n\n  type CommentEdge {\n    node: Comment!\n    cursor: String!\n  }\n\n  type PageInfo {\n    hasNextPage: Boolean!\n    hasPreviousPage: Boolean!\n    startCursor: String\n    endCursor: String\n  }\n\n  # Supporting Types\n  type Comment {\n    id: ID!\n    content: String!\n    author: User!\n    createdAt: DateTime!\n    updatedAt: DateTime!\n  }\n\n  type Attachment {\n    id: ID!\n    filename: String!\n    url: String!\n    size: Int!\n    mimeType: String!\n    uploadedBy: User!\n    uploadedAt: DateTime!\n  }\n\n  type SecurityAnalysis {\n    score: Int!\n    vulnerabilities: [Vulnerability!]!\n    compliance: JSON!\n  }\n\n  type Vulnerability {\n    type: String!\n    severity: String!\n    file: String\n    line: Int\n    description: String!\n    remediation: String\n  }\n\n  type PerformanceAnalysis {\n    loadTime: Float!\n    bundleSize: Int!\n    recommendations: [String!]!\n  }\n\n  type CodeQualityAnalysis {\n    linesOfCode: Int!\n    coverage: Float!\n    duplications: Float!\n    cyclomaticComplexity: Float!\n  }\n\n  type DependencyAnalysis {\n    total: Int!\n    outdated: [Dependency!]!\n    security: [Dependency!]!\n  }\n\n  type Dependency {\n    name: String!\n    current: String!\n    latest: String!\n    vulnerability: Boolean!\n  }\n\n  type MLInsights {\n    patterns: [Pattern!]!\n    predictions: [Prediction!]!\n    anomalies: [Anomaly!]!\n  }\n\n  type Pattern {\n    pattern: String!\n    frequency: Int!\n    impact: String!\n    confidence: Float!\n  }\n\n  type Prediction {\n    metric: String!\n    current: Float!\n    predicted30Days: Float!\n    confidence: Float!\n  }\n\n  type Anomaly {\n    type: String!\n    severity: String!\n    description: String!\n  }\n\n  type PerformanceAlert {\n    id: ID!\n    type: String!\n    severity: String!\n    message: String!\n    metric: String!\n    value: Float!\n    threshold: Float!\n    timestamp: DateTime!\n  }\n\n  # Enums\n  enum ProjectStatus {\n    PLANNING\n    IN_PROGRESS\n    ON_HOLD\n    COMPLETED\n    CANCELLED\n  }\n\n  enum TaskStatus {\n    TODO\n    IN_PROGRESS\n    IN_REVIEW\n    COMPLETED\n    BLOCKED\n  }\n\n  enum Priority {\n    LOW\n    MEDIUM\n    HIGH\n    CRITICAL\n  }\n\n  enum UserRole {\n    ADMIN\n    MANAGER\n    DEVELOPER\n    VIEWER\n  }\n\n  enum ProjectOrderBy {\n    NAME_ASC\n    NAME_DESC\n    CREATED_AT_ASC\n    CREATED_AT_DESC\n    UPDATED_AT_ASC\n    UPDATED_AT_DESC\n    PRIORITY_ASC\n    PRIORITY_DESC\n  }\n\n  enum TaskOrderBy {\n    TITLE_ASC\n    TITLE_DESC\n    CREATED_AT_ASC\n    CREATED_AT_DESC\n    DUE_DATE_ASC\n    DUE_DATE_DESC\n    PRIORITY_ASC\n    PRIORITY_DESC\n  }\n\n  # Input Types\n  input ProjectFilter {\n    status: ProjectStatus\n    priority: Priority\n    search: String\n    startDateFrom: DateTime\n    startDateTo: DateTime\n    endDateFrom: DateTime\n    endDateTo: DateTime\n  }\n\n  input TaskFilter {\n    status: TaskStatus\n    priority: Priority\n    assigneeId: ID\n    projectId: ID\n    search: String\n    dueDateFrom: DateTime\n    dueDateTo: DateTime\n  }\n\n  input CreateProjectInput {\n    name: String!\n    description: String\n    status: ProjectStatus!\n    priority: Priority!\n    startDate: DateTime\n    endDate: DateTime\n    budget: Float\n    teamIds: [ID!]\n  }\n\n  input UpdateProjectInput {\n    name: String\n    description: String\n    status: ProjectStatus\n    priority: Priority\n    startDate: DateTime\n    endDate: DateTime\n    progress: Int\n    budget: Float\n    spent: Float\n    teamIds: [ID!]\n  }\n\n  input CreateTaskInput {\n    title: String!\n    description: String\n    status: TaskStatus!\n    priority: Priority!\n    projectId: ID!\n    assigneeId: ID\n    dueDate: DateTime\n    timeEstimate: Int\n  }\n\n  input UpdateTaskInput {\n    title: String\n    description: String\n    status: TaskStatus\n    priority: Priority\n    assigneeId: ID\n    dueDate: DateTime\n    timeEstimate: Int\n    timeSpent: Int\n    completedAt: DateTime\n  }\n`",
+        "type": "todo"
+      },
+      {
+        "file": "/src/lib/websocket/client.ts",
+        "line": 1,
+        "issue": "'use client'\n\nimport { createClient, RealtimeChannel } from '@supabase/supabase-js'\n\ntype WebSocketEventType = \n  | 'project_updated' \n  | 'task_created' \n  | 'task_updated' \n  | 'task_deleted'\n  | 'user_joined'\n  | 'user_left'\n  | 'document_updated'\n  | 'notification_received'\n\ninterface WebSocketMessage {\n  type: WebSocketEventType\n  payload: any\n  timestamp: string\n  userId?: string\n  tenantId?: string\n}\n\ninterface ConnectionOptions {\n  userId?: string\n  tenantId?: string\n  retryAttempts?: number\n  retryDelay?: number\n}\n\nclass WebSocketClient {\n  private channels: Map<string, RealtimeChannel> = new Map()\n  private eventHandlers: Map<string, Set<(data: WebSocketMessage) => void>> = new Map()\n  private supabase: ReturnType<typeof createClient>\n  private connectionOptions: ConnectionOptions\n  private isConnected = false\n  private reconnectAttempts = 0\n  private maxReconnectAttempts = 5\n\n  constructor(supabaseUrl: string, supabaseKey: string, options: ConnectionOptions = {}) {\n    this.supabase = createClient(supabaseUrl, supabaseKey, {\n      realtime: {\n        params: {\n          eventsPerSecond: 10,\n        },\n      },\n    })\n    \n    this.connectionOptions = {\n      retryAttempts: 3,\n      retryDelay: 1000,\n      ...options,\n    }\n\n    this.setupGlobalHandlers()\n  }\n\n  private setupGlobalHandlers() {\n    // Handle connection status\n    // Note: onOpen, onClose, onError methods not available in current Supabase client\n    // TODO: Implement connection monitoring using Supabase channel status\n    console.log('[WebSocket] Global handlers setup skipped - methods not available')\n    this.isConnected = true // Assume connected for now\n  }\n\n  private async handleReconnection() {\n    if (this.reconnectAttempts >= this.maxReconnectAttempts) {\n      console.error('[WebSocket] Max reconnection attempts reached')\n      this.emit('max_reconnect_reached', { attempts: this.reconnectAttempts })\n      return\n    }\n\n    this.reconnectAttempts++\n    const delay = this.connectionOptions.retryDelay! * Math.pow(2, this.reconnectAttempts - 1)\n    \n    console.log(`[WebSocket] Attempting reconnection ${this.reconnectAttempts}/${this.maxReconnectAttempts} in ${delay}ms`)\n    \n    setTimeout(() => {\n      this.reconnectChannels()\n    }, delay)\n  }\n\n  private async reconnectChannels() {\n    for (const [channelName] of this.channels) {\n      await this.subscribeToChannel(channelName)\n    }\n  }\n\n  /**\n   * Subscribe to a channel for real-time updates\n   */\n  async subscribeToChannel(channelName: string): Promise<RealtimeChannel> {\n    try {\n      // Remove existing channel if it exists\n      const existingChannel = this.channels.get(channelName)\n      if (existingChannel) {\n        await this.supabase.removeChannel(existingChannel)\n      }\n\n      const channel = this.supabase\n        .channel(channelName)\n        .on('postgres_changes', \n          { event: '*', schema: 'public' }, \n          (payload) => this.handleDatabaseChange(channelName, payload)\n        )\n        .on('broadcast', \n          { event: '*' }, \n          (payload) => this.handleBroadcast(channelName, payload)\n        )\n        .on('presence', \n          { event: 'sync' }, \n          () => this.handlePresenceSync(channelName)\n        )\n        .on('presence', \n          { event: 'join' }, \n          (payload) => this.handlePresenceJoin(channelName, payload)\n        )\n        .on('presence', \n          { event: 'leave' }, \n          (payload) => this.handlePresenceLeave(channelName, payload)\n        )\n\n      channel.subscribe()\n      \n      // Note: subscribe() doesn't return error status in current Supabase version\n      // Subscription errors would be handled via error callbacks\n\n      this.channels.set(channelName, channel)\n      console.log(`[WebSocket] Subscribed to channel: ${channelName}`)\n      \n      return channel\n    } catch (error) {\n      console.error(`[WebSocket] Error subscribing to channel ${channelName}:`, error)\n      throw error\n    }\n  }\n\n  /**\n   * Unsubscribe from a channel\n   */\n  async unsubscribeFromChannel(channelName: string): Promise<void> {\n    const channel = this.channels.get(channelName)\n    if (channel) {\n      await this.supabase.removeChannel(channel)\n      this.channels.delete(channelName)\n      console.log(`[WebSocket] Unsubscribed from channel: ${channelName}`)\n    }\n  }\n\n  /**\n   * Send a broadcast message to a channel\n   */\n  async broadcast(channelName: string, event: string, payload: any): Promise<void> {\n    const channel = this.channels.get(channelName)\n    if (!channel) {\n      throw new Error(`Channel ${channelName} not found`)\n    }\n\n    await channel.send({\n      type: 'broadcast',\n      event,\n      payload: {\n        ...payload,\n        timestamp: new Date().toISOString(),\n        userId: this.connectionOptions.userId,\n        tenantId: this.connectionOptions.tenantId,\n      }\n    })\n  }\n\n  /**\n   * Track user presence in a channel\n   */\n  async trackPresence(channelName: string, metadata: Record<string, any> = {}): Promise<void> {\n    const channel = this.channels.get(channelName)\n    if (!channel) {\n      throw new Error(`Channel ${channelName} not found`)\n    }\n\n    await channel.track({\n      user_id: this.connectionOptions.userId,\n      tenant_id: this.connectionOptions.tenantId,\n      online_at: new Date().toISOString(),\n      ...metadata,\n    })\n  }\n\n  /**\n   * Stop tracking presence in a channel\n   */\n  async untrackPresence(channelName: string): Promise<void> {\n    const channel = this.channels.get(channelName)\n    if (channel) {\n      await channel.untrack()\n    }\n  }\n\n  /**\n   * Get current presence state for a channel\n   */\n  getPresenceState(channelName: string): Record<string, any[]> {\n    const channel = this.channels.get(channelName)\n    return channel ? channel.presenceState() : {}\n  }\n\n  /**\n   * Add event listener\n   */\n  on(event: WebSocketEventType | 'connection_established' | 'connection_error' | 'max_reconnect_reached', \n     handler: (data: WebSocketMessage | any) => void): void {\n    if (!this.eventHandlers.has(event)) {\n      this.eventHandlers.set(event, new Set())\n    }\n    this.eventHandlers.get(event)!.add(handler)\n  }\n\n  /**\n   * Remove event listener\n   */\n  off(event: WebSocketEventType | 'connection_established' | 'connection_error' | 'max_reconnect_reached', \n      handler: (data: WebSocketMessage | any) => void): void {\n    const handlers = this.eventHandlers.get(event)\n    if (handlers) {\n      handlers.delete(handler)\n    }\n  }\n\n  /**\n   * Emit event to listeners\n   */\n  private emit(event: string, data: any): void {\n    const handlers = this.eventHandlers.get(event)\n    if (handlers) {\n      handlers.forEach(handler => {\n        try {\n          handler(data)\n        } catch (error) {\n          console.error(`[WebSocket] Error in event handler for ${event}:`, error)\n        }\n      })\n    }\n  }\n\n  /**\n   * Handle database changes\n   */\n  private handleDatabaseChange(channelName: string, payload: any): void {\n    let eventType: WebSocketEventType\n\n    // Map database events to our event types\n    switch (payload.table) {\n      case 'projects':\n        eventType = 'project_updated'\n        break\n      case 'tasks':\n        eventType = payload.eventType === 'INSERT' ? 'task_created' : \n                   payload.eventType === 'UPDATE' ? 'task_updated' : 'task_deleted'\n        break\n      case 'documents':\n        eventType = 'document_updated'\n        break\n      default:\n        return // Ignore unknown tables\n    }\n\n    const message: WebSocketMessage = {\n      type: eventType,\n      payload: payload.new || payload.old,\n      timestamp: new Date().toISOString(),\n      userId: payload.new?.created_by || payload.old?.created_by,\n      tenantId: payload.new?.tenant_id || payload.old?.tenant_id,\n    }\n\n    this.emit(eventType, message)\n  }\n\n  /**\n   * Handle broadcast messages\n   */\n  private handleBroadcast(channelName: string, payload: any): void {\n    console.log(`[WebSocket] Broadcast received on ${channelName}:`, payload)\n    \n    if (payload.event && payload.payload) {\n      this.emit(payload.event, {\n        type: payload.event,\n        payload: payload.payload,\n        timestamp: payload.payload.timestamp || new Date().toISOString(),\n        userId: payload.payload.userId,\n        tenantId: payload.payload.tenantId,\n      })\n    }\n  }\n\n  /**\n   * Handle presence sync\n   */\n  private handlePresenceSync(channelName: string): void {\n    const state = this.getPresenceState(channelName)\n    console.log(`[WebSocket] Presence sync for ${channelName}:`, state)\n  }\n\n  /**\n   * Handle presence join\n   */\n  private handlePresenceJoin(channelName: string, payload: any): void {\n    console.log(`[WebSocket] User joined ${channelName}:`, payload)\n    this.emit('user_joined', {\n      type: 'user_joined',\n      payload,\n      timestamp: new Date().toISOString(),\n    })\n  }\n\n  /**\n   * Handle presence leave\n   */\n  private handlePresenceLeave(channelName: string, payload: any): void {\n    console.log(`[WebSocket] User left ${channelName}:`, payload)\n    this.emit('user_left', {\n      type: 'user_left',\n      payload,\n      timestamp: new Date().toISOString(),\n    })\n  }\n\n  /**\n   * Get connection status\n   */\n  getConnectionStatus(): { connected: boolean; channels: string[] } {\n    return {\n      connected: this.isConnected,\n      channels: Array.from(this.channels.keys()),\n    }\n  }\n\n  /**\n   * Clean up all connections\n   */\n  async disconnect(): Promise<void> {\n    for (const [channelName] of this.channels) {\n      await this.unsubscribeFromChannel(channelName)\n    }\n    \n    await this.supabase.removeAllChannels()\n    this.eventHandlers.clear()\n    this.isConnected = false\n    \n    console.log('[WebSocket] Disconnected and cleaned up')\n  }\n}\n\n// Singleton instance\nlet webSocketClient: WebSocketClient | null = null\n\nexport function getWebSocketClient(): WebSocketClient | null {\n  return webSocketClient\n}\n\nexport function initializeWebSocketClient(\n  supabaseUrl: string, \n  supabaseKey: string, \n  options: ConnectionOptions = {}\n): WebSocketClient {\n  if (!webSocketClient) {\n    webSocketClient = new WebSocketClient(supabaseUrl, supabaseKey, options)\n  }\n  return webSocketClient\n}\n\nexport function disconnectWebSocket(): Promise<void> {\n  if (webSocketClient) {\n    return webSocketClient.disconnect()\n  }\n  return Promise.resolve()\n}\n\nexport type { WebSocketClient, WebSocketMessage, WebSocketEventType }",
+        "type": "debugging"
+      }
+    ],
+    "technicalDebt": 1853
+  },
+  "architecture": {
+    "patterns": {
+      "nextjsApp": true,
+      "componentsLibrary": true,
+      "hooksPattern": true,
+      "apiRoutes": true,
+      "middleware": true,
+      "tailwindCSS": true,
+      "typescript": true,
+      "supabase": true
+    },
+    "modularity": 100,
+    "externalDeps": 2,
+    "internalConnections": 7,
+    "coupling": 99.5906432748538,
+    "cohesion": 85,
+    "scalabilityIndex": 90
+  },
+  "performance": {
+    "buildExists": true,
+    "bundleSizeKB": 51105,
+    "staticFiles": 99,
+    "estimatedLoadTime": 1047,
+    "databasePerformance": {
+      "connected": true,
+      "avgQueryTime": 222,
+      "tablesAccessible": true,
+      "connectionHealth": "good"
+    },
+    "recommendations": [
+      "Bundle size is large - consider code splitting"
+    ]
+  },
+  "security": {
+    "securityScore": 70,
+    "vulnerabilities": [
+      {
+        "type": "Code Injection",
+        "severity": "critical",
+        "file": "/src/lib/architecture-analyzer-enterprise.ts",
+        "description": "Use of eval() detected"
+      },
+      {
+        "type": "Data Exposure",
+        "severity": "high",
+        "file": "/src/lib/architecture-analyzer-enterprise.ts",
+        "description": "Sensitive data in localStorage"
+      }
+    ],
+    "checks": {
+      "httpsEnforced": true,
+      "envVarsSecure": true,
+      "authImplemented": true,
+      "inputValidation": true,
+      "sqlInjectionProtection": true,
+      "xssProtection": true,
+      "dependencyVulnerabilities": {
+        "vulnerablePackages": 0,
+        "lastAudit": "Not implemented"
+      }
+    }
+  },
+  "dependencies": {
+    "total": 66,
+    "production": 53,
+    "development": 13,
+    "outdated": [
+      {
+        "name": "@dnd-kit/core",
+        "current": "^6.3.1",
+        "type": "stable"
+      },
+      {
+        "name": "@dnd-kit/sortable",
+        "current": "^10.0.0",
+        "type": "stable"
+      },
+      {
+        "name": "@dnd-kit/utilities",
+        "current": "^3.2.2",
+        "type": "stable"
+      },
+      {
+        "name": "@hookform/resolvers",
+        "current": "^5.1.1",
+        "type": "stable"
+      },
+      {
+        "name": "@mapbox/mapbox-gl-geocoder",
+        "current": "^5.1.0",
+        "type": "stable"
+      },
+      {
+        "name": "@radix-ui/react-avatar",
+        "current": "^1.1.10",
+        "type": "stable"
+      },
+      {
+        "name": "@radix-ui/react-checkbox",
+        "current": "^1.3.3",
+        "type": "stable"
+      },
+      {
+        "name": "@radix-ui/react-dialog",
+        "current": "^1.1.15",
+        "type": "stable"
+      },
+      {
+        "name": "@radix-ui/react-dropdown-menu",
+        "current": "^2.1.15",
+        "type": "stable"
+      },
+      {
+        "name": "@radix-ui/react-label",
+        "current": "^2.1.7",
+        "type": "stable"
+      },
+      {
+        "name": "@radix-ui/react-popover",
+        "current": "^1.1.15",
+        "type": "stable"
+      },
+      {
+        "name": "@radix-ui/react-progress",
+        "current": "^1.1.7",
+        "type": "stable"
+      },
+      {
+        "name": "@radix-ui/react-radio-group",
+        "current": "^1.3.8",
+        "type": "stable"
+      },
+      {
+        "name": "@radix-ui/react-scroll-area",
+        "current": "^1.2.10",
+        "type": "stable"
+      },
+      {
+        "name": "@radix-ui/react-select",
+        "current": "^2.2.6",
+        "type": "stable"
+      },
+      {
+        "name": "@radix-ui/react-separator",
+        "current": "^1.1.7",
+        "type": "stable"
+      },
+      {
+        "name": "@radix-ui/react-slider",
+        "current": "^1.3.6",
+        "type": "stable"
+      },
+      {
+        "name": "@radix-ui/react-slot",
+        "current": "^1.2.3",
+        "type": "stable"
+      },
+      {
+        "name": "@radix-ui/react-switch",
+        "current": "^1.2.6",
+        "type": "stable"
+      },
+      {
+        "name": "@radix-ui/react-tabs",
+        "current": "^1.1.13",
+        "type": "stable"
+      },
+      {
+        "name": "@radix-ui/react-toast",
+        "current": "^1.2.15",
+        "type": "stable"
+      },
+      {
+        "name": "@radix-ui/react-tooltip",
+        "current": "^1.2.8",
+        "type": "stable"
+      },
+      {
+        "name": "@supabase/auth-helpers-nextjs",
+        "current": "^0.10.0",
+        "type": "stable"
+      },
+      {
+        "name": "@supabase/ssr",
+        "current": "^0.6.1",
+        "type": "stable"
+      },
+      {
+        "name": "@supabase/supabase-js",
+        "current": "^2.50.5",
+        "type": "stable"
+      },
+      {
+        "name": "@tanstack/react-query",
+        "current": "^5.85.5",
+        "type": "stable"
+      },
+      {
+        "name": "@tanstack/react-query-devtools",
+        "current": "^5.85.5",
+        "type": "stable"
+      },
+      {
+        "name": "@tensorflow/tfjs",
+        "current": "^4.22.0",
+        "type": "stable"
+      },
+      {
+        "name": "@types/dotenv",
+        "current": "^6.1.1",
+        "type": "stable"
+      },
+      {
+        "name": "@types/mapbox-gl",
+        "current": "^3.4.1",
+        "type": "stable"
+      },
+      {
+        "name": "@upstash/redis",
+        "current": "^1.35.3",
+        "type": "stable"
+      },
+      {
+        "name": "class-variance-authority",
+        "current": "^0.7.1",
+        "type": "stable"
+      },
+      {
+        "name": "clsx",
+        "current": "^2.1.1",
+        "type": "stable"
+      },
+      {
+        "name": "cmdk",
+        "current": "^1.1.1",
+        "type": "stable"
+      },
+      {
+        "name": "critters",
+        "current": "^0.0.23",
+        "type": "stable"
+      },
+      {
+        "name": "date-fns",
+        "current": "^4.1.0",
+        "type": "stable"
+      },
+      {
+        "name": "dotenv",
+        "current": "^17.2.1",
+        "type": "stable"
+      },
+      {
+        "name": "html2canvas",
+        "current": "^1.4.1",
+        "type": "stable"
+      },
+      {
+        "name": "jspdf",
+        "current": "^3.0.1",
+        "type": "stable"
+      },
+      {
+        "name": "lucide-react",
+        "current": "^0.525.0",
+        "type": "stable"
+      },
+      {
+        "name": "mapbox-gl",
+        "current": "^3.14.0",
+        "type": "stable"
+      },
+      {
+        "name": "react",
+        "current": "^19.0.0",
+        "type": "stable"
+      },
+      {
+        "name": "react-day-picker",
+        "current": "^9.9.0",
+        "type": "stable"
+      },
+      {
+        "name": "react-dom",
+        "current": "^19.0.0",
+        "type": "stable"
+      },
+      {
+        "name": "react-hook-form",
+        "current": "^7.60.0",
+        "type": "stable"
+      },
+      {
+        "name": "react-map-gl",
+        "current": "^8.0.4",
+        "type": "stable"
+      },
+      {
+        "name": "recharts",
+        "current": "^3.1.2",
+        "type": "stable"
+      },
+      {
+        "name": "redis",
+        "current": "^5.8.2",
+        "type": "stable"
+      },
+      {
+        "name": "sonner",
+        "current": "^2.0.6",
+        "type": "stable"
+      },
+      {
+        "name": "stripe",
+        "current": "^18.4.0",
+        "type": "stable"
+      },
+      {
+        "name": "tailwind-merge",
+        "current": "^3.3.1",
+        "type": "stable"
+      },
+      {
+        "name": "zod",
+        "current": "^4.0.5",
+        "type": "stable"
+      },
+      {
+        "name": "@testing-library/jest-dom",
+        "current": "^6.8.0",
+        "type": "stable"
+      },
+      {
+        "name": "@testing-library/react",
+        "current": "^16.3.0",
+        "type": "stable"
+      },
+      {
+        "name": "@testing-library/user-event",
+        "current": "^14.6.1",
+        "type": "stable"
+      },
+      {
+        "name": "@types/node",
+        "current": "^20",
+        "type": "stable"
+      },
+      {
+        "name": "@types/react",
+        "current": "^19",
+        "type": "stable"
+      },
+      {
+        "name": "@types/react-dom",
+        "current": "^19",
+        "type": "stable"
+      },
+      {
+        "name": "autoprefixer",
+        "current": "^10.4.21",
+        "type": "stable"
+      },
+      {
+        "name": "jest",
+        "current": "^30.0.5",
+        "type": "stable"
+      },
+      {
+        "name": "jest-environment-jsdom",
+        "current": "^30.0.5",
+        "type": "stable"
+      },
+      {
+        "name": "postcss",
+        "current": "^8.5.6",
+        "type": "stable"
+      },
+      {
+        "name": "tailwindcss",
+        "current": "^3.4.17",
+        "type": "stable"
+      },
+      {
+        "name": "tailwindcss-animate",
+        "current": "^1.0.7",
+        "type": "stable"
+      },
+      {
+        "name": "typescript",
+        "current": "^5",
+        "type": "stable"
+      }
+    ],
+    "unused": [],
+    "vulnerable": [],
+    "licenses": {}
+  },
+  "database": {
+    "tablesAnalyzed": 9,
+    "tablesConnected": 9,
+    "schemaHealth": 100,
+    "tables": {
+      "tenants": {
+        "exists": true,
+        "records": 7
+      },
+      "profiles": {
+        "exists": true,
+        "records": 4
+      },
+      "projects": {
+        "exists": true,
+        "records": 2
+      },
+      "tasks": {
+        "exists": true,
+        "records": 4
+      },
+      "activity_logs": {
+        "exists": true,
+        "records": 3
+      },
+      "architecture_analysis_reports": {
+        "exists": true,
+        "records": 1
+      },
+      "security_vulnerabilities": {
+        "exists": true,
+        "records": 7
+      },
+      "performance_logs": {
+        "exists": true,
+        "records": 40
+      },
+      "error_logs": {
+        "exists": true,
+        "records": 6
+      }
+    }
+  },
+  "improvements": [
+    {
+      "category": "Performance",
+      "priority": "high",
+      "improvement": "Implement React Server Components for better SSR performance",
+      "effort": "medium",
+      "impact": "high",
+      "timeframe": "2-3 weeks"
+    },
+    {
+      "category": "Architecture",
+      "priority": "medium",
+      "improvement": "Add comprehensive error boundaries for better error handling",
+      "effort": "low",
+      "impact": "medium",
+      "timeframe": "1 week"
+    },
+    {
+      "category": "Code Quality",
+      "priority": "medium",
+      "improvement": "Implement comprehensive testing suite with coverage > 80%",
+      "effort": "high",
+      "impact": "high",
+      "timeframe": "4-6 weeks"
+    },
+    {
+      "category": "Security",
+      "priority": "high",
+      "improvement": "Add rate limiting middleware to prevent API abuse",
+      "effort": "low",
+      "impact": "high",
+      "timeframe": "3-5 days"
+    },
+    {
+      "category": "Database",
+      "priority": "medium",
+      "improvement": "Implement database query optimization and indexing",
+      "effort": "medium",
+      "impact": "high",
+      "timeframe": "1-2 weeks"
+    }
+  ],
+  "upgrades": [
+    {
+      "component": "Next.js",
+      "current": "15.x",
+      "target": "Latest stable",
+      "benefits": [
+        "Improved performance",
+        "New features",
+        "Security patches"
+      ],
+      "effort": "low",
+      "risks": [
+        "Potential breaking changes"
+      ],
+      "timeframe": "1-2 days"
+    },
+    {
+      "component": "React",
+      "current": "18.x",
+      "target": "19.x (when stable)",
+      "benefits": [
+        "Concurrent features",
+        "Better Suspense"
+      ],
+      "effort": "medium",
+      "risks": [
+        "API changes"
+      ],
+      "timeframe": "1 week"
+    },
+    {
+      "component": "TypeScript",
+      "current": "5.x",
+      "target": "Latest",
+      "benefits": [
+        "Better type inference",
+        "New language features"
+      ],
+      "effort": "low",
+      "risks": [
+        "Minor breaking changes"
+      ],
+      "timeframe": "1 day"
+    },
+    {
+      "component": "TailwindCSS",
+      "current": "3.x",
+      "target": "Latest",
+      "benefits": [
+        "New utilities",
+        "Performance improvements"
+      ],
+      "effort": "low",
+      "risks": [
+        "Minimal"
+      ],
+      "timeframe": "1 day"
+    }
+  ],
+  "optimizations": [
+    {
+      "area": "Bundle Size",
+      "opportunity": "Implement dynamic imports for large components",
+      "currentImpact": "Large bundle affecting load times",
+      "optimization": "Code splitting with React.lazy()",
+      "expectedImprovement": "30-40% reduction in initial bundle size",
+      "implementation": "Split routes and heavy components into separate chunks"
+    },
+    {
+      "area": "Database Queries",
+      "opportunity": "Optimize Supabase query patterns",
+      "currentImpact": "Multiple round trips for related data",
+      "optimization": "Use select() with joins and limit unnecessary data",
+      "expectedImprovement": "50-60% faster page loads",
+      "implementation": "Refactor data fetching hooks"
+    },
+    {
+      "area": "Caching",
+      "opportunity": "Implement comprehensive caching strategy",
+      "currentImpact": "Repeated API calls and computation",
+      "optimization": "React Query + Service Worker caching",
+      "expectedImprovement": "70% reduction in API calls",
+      "implementation": "Add React Query and cache policies"
+    },
+    {
+      "area": "Images",
+      "opportunity": "Optimize image loading and formats",
+      "currentImpact": "Slow image loads affecting UX",
+      "optimization": "Next.js Image component + WebP format",
+      "expectedImprovement": "40-50% faster image loading",
+      "implementation": "Convert to Next/Image and optimize formats"
+    },
+    {
+      "area": "CSS",
+      "opportunity": "Purge unused CSS and optimize delivery",
+      "currentImpact": "Large CSS bundles with unused styles",
+      "optimization": "TailwindCSS purging + critical CSS",
+      "expectedImprovement": "60% smaller CSS bundles",
+      "implementation": "Configure purging and critical CSS extraction"
+    }
+  ]
+}

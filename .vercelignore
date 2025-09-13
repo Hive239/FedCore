@@ -1,0 +1,58 @@
+# Ignore build cache - CRITICAL FOR DEPLOYMENT
+.next/cache
+.next/cache/**/*
+**/.next/cache
+**/.next/cache/**/*
+
+# Development files
+*.log
+*.map
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Test files
+__tests__
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+cypress
+e2e
+
+# Documentation
+docs
+*.md
+!README.md
+
+# Source maps
+*.map
+
+# Scripts
+scripts/
+check-braces.js
+transfer-to-mparish.js
+
+# TensorFlow models (they should be loaded from CDN)
+*.h5
+*.pb
+*.bin
+model.json
+
+# Large unnecessary files
+node_modules/.cache
+node_modules/**/test
+node_modules/**/tests
+node_modules/**/docs
+node_modules/**/examples
+node_modules/**/*.md
+node_modules/**/*.map
+
+# IDE
+.vscode
+.idea
+
+# OS files
+.DS_Store
+Thumbs.db

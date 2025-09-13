@@ -1,0 +1,783 @@
+{
+  "timestamp": "2025-08-26T04:22:19.027Z",
+  "connections": [
+    {
+      "component": "ErrorBoundary.tsx",
+      "type": "client",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "error-boundary.test.tsx",
+      "type": "server",
+      "patterns": []
+    },
+    {
+      "component": "ArchitectureAnalysisClient.tsx",
+      "type": "client",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "ServerDataFetcher.tsx",
+      "type": "server",
+      "patterns": [
+        "Suspense"
+      ]
+    },
+    {
+      "component": "conflict-manager.tsx",
+      "type": "client",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "demo-banner.tsx",
+      "type": "client",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "error-boundary.tsx",
+      "type": "client",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "header.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "sidebar.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "map-core.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "working-map.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "project-map.tsx",
+      "type": "client",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "conversation-list.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "external-contact-dialog.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "message-thread.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "new-message-modal.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "member-directory.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "analytics-charts.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "performance-charts.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "project-card.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "project-form.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "performance-provider.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "pwa-install-prompt.tsx",
+      "type": "client",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "gantt-chart-enhanced.tsx",
+      "type": "client",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "gantt-chart-pro.tsx",
+      "type": "client",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "gantt-chart.tsx",
+      "type": "client",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "kanban-board.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "kanban-column.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "task-card.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "task-contact-tags.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "task-dependencies.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "task-suggestions.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "invite-member-modal.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "invite-team-member.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "project-assignment-dialog.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "team-assignment-dialog.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "tenant-switcher.tsx",
+      "type": "client",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "error-trigger.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "performance-verification.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "address-autocomplete.tsx",
+      "type": "client",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "alert.tsx",
+      "type": "server",
+      "patterns": []
+    },
+    {
+      "component": "avatar.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "badge.tsx",
+      "type": "server",
+      "patterns": []
+    },
+    {
+      "component": "button.tsx",
+      "type": "server",
+      "patterns": []
+    },
+    {
+      "component": "calendar.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "card.tsx",
+      "type": "server",
+      "patterns": []
+    },
+    {
+      "component": "checkbox.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "command.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "dialog.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "dropdown-menu.tsx",
+      "type": "server",
+      "patterns": []
+    },
+    {
+      "component": "input.tsx",
+      "type": "server",
+      "patterns": []
+    },
+    {
+      "component": "label.tsx",
+      "type": "server",
+      "patterns": []
+    },
+    {
+      "component": "popover.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "progress.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "radio-group.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "scroll-area.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "select.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "separator.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "skeleton.tsx",
+      "type": "server",
+      "patterns": []
+    },
+    {
+      "component": "slider.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "switch.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "table.tsx",
+      "type": "server",
+      "patterns": []
+    },
+    {
+      "component": "tabs.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "textarea.tsx",
+      "type": "server",
+      "patterns": []
+    },
+    {
+      "component": "toast.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "toaster.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    },
+    {
+      "component": "tooltip.tsx",
+      "type": "server",
+      "patterns": [
+        "CSR"
+      ]
+    }
+  ],
+  "patterns": {},
+  "issues": [
+    {
+      "type": "performance",
+      "file": "task-suggestions.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "optimized-api.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "architecture-analyzer-enterprise.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "redis-cache.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "connection-pool.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "client.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "resolvers.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "use-dashboard-data.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "use-events-optimized.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "use-events.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "use-nexus-analytics.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "use-nexus.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "use-project-assignments.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "use-project-locations.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "use-projects.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "use-security.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "use-tasks.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "nexus-pattern-recognition.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "error-tracking.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "predictive-prefetch.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "performance-monitor.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "performance-test.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "queries.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "generate-sample-data.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "middleware.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "optimized-queries.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "server.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "test-messaging-system.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "client.ts",
+      "severity": "high",
+      "message": "Potential N+1 query detected - consider batch loading"
+    },
+    {
+      "type": "performance",
+      "file": "page.tsx",
+      "message": "Too many useEffect hooks (5) - consider consolidation"
+    },
+    {
+      "type": "performance",
+      "file": "page.tsx",
+      "message": "Too many useEffect hooks (4) - consider consolidation"
+    },
+    {
+      "type": "performance",
+      "file": "page.tsx",
+      "message": "Too many useEffect hooks (4) - consider consolidation"
+    },
+    {
+      "type": "performance",
+      "file": "page.tsx",
+      "message": "Too many useEffect hooks (4) - consider consolidation"
+    },
+    {
+      "type": "performance",
+      "file": "working-map.tsx",
+      "message": "Too many useEffect hooks (11) - consider consolidation"
+    },
+    {
+      "type": "performance",
+      "file": "address-autocomplete.tsx",
+      "message": "Too many useEffect hooks (4) - consider consolidation"
+    },
+    {
+      "type": "security",
+      "file": "enhanced-cache.test.ts",
+      "severity": "critical",
+      "message": "Dangerous eval() or Function() usage detected"
+    },
+    {
+      "type": "security",
+      "file": "architecture-analyzer-enterprise.ts",
+      "severity": "critical",
+      "message": "Dangerous eval() or Function() usage detected"
+    },
+    {
+      "type": "security",
+      "file": "construction-logic.ts",
+      "severity": "critical",
+      "message": "Dangerous eval() or Function() usage detected"
+    },
+    {
+      "type": "security",
+      "file": "mapbox-geocoder.d.ts",
+      "severity": "critical",
+      "message": "Dangerous eval() or Function() usage detected"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "high",
+      "category": "architecture",
+      "message": "Consider separating client and server components more clearly",
+      "impact": "Improved performance and smaller bundle size"
+    },
+    {
+      "priority": "medium",
+      "category": "performance",
+      "message": "Implement caching for more API routes",
+      "impact": "Reduced database load and faster response times"
+    },
+    {
+      "priority": "low",
+      "category": "performance",
+      "message": "Consider virtual scrolling for large lists",
+      "impact": "Better performance with large datasets"
+    },
+    {
+      "priority": "low",
+      "category": "features",
+      "message": "Consider adding real-time features for better UX",
+      "impact": "Improved user engagement and collaboration"
+    }
+  ],
+  "metrics": {
+    "components": {
+      "total": 67,
+      "client": 12,
+      "server": 0,
+      "mixed": 21,
+      "withAPICalls": 11,
+      "withOptimisticUpdates": 1
+    },
+    "apiRoutes": {
+      "total": 9,
+      "rest": 9,
+      "graphql": 1,
+      "streaming": 0,
+      "cached": 0,
+      "protected": 8
+    },
+    "dataFlow": {
+      "clientToServer": 0,
+      "serverToClient": 0,
+      "bidirectional": 0,
+      "realtime": 0,
+      "cached": 0
+    },
+    "stateManagement": {
+      "redux": 1,
+      "zustand": 0,
+      "context": 2,
+      "atoms": 0,
+      "local": 64,
+      "serverState": 0
+    },
+    "performance": {
+      "lazyLoading": 3,
+      "memoization": 6,
+      "virtualScrolling": 0,
+      "codeSpitting": 0,
+      "prefetching": 2,
+      "bundleOptimization": 0
+    },
+    "security": {
+      "authentication": 44,
+      "authorization": 9,
+      "encryption": 6,
+      "validation": 32,
+      "sanitization": 2,
+      "rateLimit": 3
+    },
+    "realtime": {
+      "websockets": 3,
+      "serverSentEvents": 1,
+      "polling": 6,
+      "subscriptions": 5,
+      "presence": 3
+    },
+    "errorHandling": {
+      "errorBoundaries": 5,
+      "tryCatch": 52,
+      "asyncErrorHandling": 3,
+      "fallbackUI": 17,
+      "errorLogging": 51,
+      "retryLogic": 9
+    }
+  },
+  "score": 0,
+  "analysisDuration": 111.453375,
+  "summary": {
+    "title": "UI/Backend Connection Analysis Report",
+    "timestamp": "2025-08-26T04:22:19.027Z",
+    "score": 0,
+    "duration": 111.453375,
+    "issueCount": 39,
+    "recommendationCount": 4
+  }
+}

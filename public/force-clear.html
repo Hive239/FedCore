@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Force Clear Service Workers</title>
+    <style>
+        body { font-family: Arial; padding: 20px; max-width: 800px; margin: 0 auto; }
+        button { padding: 10px 20px; margin: 10px; font-size: 16px; cursor: pointer; }
+        .success { color: green; }
+        .error { color: red; }
+        #output { background: #f0f0f0; padding: 15px; margin-top: 20px; white-space: pre-wrap; }
+    </style>
+</head>
+<body>
+    <h1>Force Clear All Service Workers and Caches</h1>
+    
+    <p>Online Status: <span id="status"></span></p>
+    
+    <button onclick="clearEverything()">CLEAR EVERYTHING NOW</button>
+    <button onclick="goHome()">Go to App</button>
+    
+    <div id="output"></div>
+    
+    <script>
+        const output = document.getElementById('output');
+        const status = document.getElementById('status');
+        
+        // Check online status
+        function updateStatus() {
+            status.textContent = navigator.onLine ? '✅ ONLINE' : '❌ OFFLINE';
+            status.className = navigator.onLine ? 'success' : 'error';
+        }
+        updateStatus();
+        
+        window.addEventListener('online', updateStatus);
+        window.addEventListener('offline', updateStatus);
+        
+        async function clearEverything() {
+            output.textContent = 'Starting cleanup...\n';
+            
+            try {
+                // Unregister ALL service workers
+                if ('serviceWorker' in navigator) {
+                    const registrations = await navigator.serviceWorker.getRegistrations();
+                    output.textContent += `Found ${registrations.length} service workers\n`;
+                    
+                    for (const registration of registrations) {
+                        const success = await registration.unregister();
+                        output.textContent += `Unregistered ${registration.scope}: ${success ? 'SUCCESS' : 'FAILED'}\n`;
+                    }
+                }
+                
+                // Delete ALL caches
+                if ('caches' in window) {
+                    const names = await caches.keys();
+                    output.textContent += `\nFound ${names.length} caches\n`;
+                    
+                    for (const name of names) {
+                        const deleted = await caches.delete(name);
+                        output.textContent += `Deleted cache ${name}: ${deleted ? 'SUCCESS' : 'FAILED'}\n`;
+                    }
+                }
+                
+                // Clear storage
+                localStorage.clear();
+                sessionStorage.clear();
+                output.textContent += '\nCleared localStorage and sessionStorage\n';
+                
+                // Clear IndexedDB
+                if (window.indexedDB) {
+                    const databases = await indexedDB.databases();
+                    for (const db of databases) {
+                        indexedDB.deleteDatabase(db.name);
+                        output.textContent += `Deleted IndexedDB: ${db.name}\n`;
+                    }
+                }
+                
+                output.textContent += '\n✅ ALL CLEARED! Refreshing in 2 seconds...';
+                
+                setTimeout(() => {
+                    window.location.href = '/';
+                }, 2000);
+                
+            } catch (error) {
+                output.textContent += `\n❌ Error: ${error.message}\n`;
+            }
+        }
+        
+        function goHome() {
+            window.location.href = '/';
+        }
+        
+        // Auto-run on load
+        window.addEventListener('load', () => {
+            output.textContent += 'Page loaded. Click the button to clear everything.\n';
+            output.textContent += `Current URL: ${window.location.href}\n`;
+            output.textContent += `Navigator online: ${navigator.onLine}\n`;
+        });
+    </script>
+</body>
+</html>
