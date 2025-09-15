@@ -10,7 +10,7 @@ NC='\033[0m'
 SUPABASE_URL="https://ndvlruqscfjsmpdojtnl.supabase.co"
 SERVICE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5kdmxydXFzY2Zqc21wZG9qdG5sIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MjM0MDkxOCwiZXhwIjoyMDY3OTE2OTE4fQ.FUHyTqcKz98F1l8dpLMb4zvn-v_S0MWDQ4g8SGiun8k"
 
-echo -e "${BLUE}🚀 Seeding Project Pro database via API${NC}"
+echo -e "${BLUE}🚀 Seeding FEDCORE database via API${NC}"
 echo ""
 
 # Function to make API calls

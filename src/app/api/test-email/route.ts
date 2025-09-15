@@ -19,9 +19,9 @@ export async function GET() {
     
     // Send a test email
     const { data, error } = await resend.emails.send({
-      from: 'Project Pro <onboarding@resend.dev>',  // Using Resend's test domain
+      from: 'FEDCORE <onboarding@resend.dev>',  // Using Resend's test domain
       to: ['delivered@resend.dev'],  // Resend's test email
-      subject: 'Test Email from Project Pro',
+      subject: 'Test Email from FEDCORE',
       html: '<p>This is a test email to verify your configuration is working.</p>'
     })
     

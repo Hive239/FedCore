@@ -10,7 +10,7 @@ NC='\033[0m' # No Color
 SUPABASE_URL="https://ndvlruqscfjsmpdojtnl.supabase.co"
 ANON_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5kdmxydXFzY2Zqc21wZG9qdG5sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTIzNDA5MTgsImV4cCI6MjA2NzkxNjkxOH0.jIbw-7_Yv0ymhPybd65XY-gcw8qMKWCgBHHLBqMXaqY"
 
-echo -e "${BLUE}🚀 Creating test users for Project Pro${NC}"
+echo -e "${BLUE}🚀 Creating test users for FEDCORE${NC}"
 echo ""
 
 # Function to create a user

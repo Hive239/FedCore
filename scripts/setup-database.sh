@@ -7,7 +7,7 @@ DB_NAME="postgres"
 DB_USER="postgres"
 
 # You'll need to provide the password when running
-echo "🚀 Setting up Project Pro database using psql..."
+echo "🚀 Setting up FEDCORE database using psql..."
 echo ""
 echo "Please enter your Supabase database password"
 echo "You can find it at: https://supabase.com/dashboard/project/ndvlruqscfjsmpdojtnl/settings/database"

@@ -6,7 +6,7 @@ RED='\033[0;31m'
 BLUE='\033[0;34m'
 NC='\033[0m'
 
-echo -e "${BLUE}🚀 Project Pro Database Setup${NC}"
+echo -e "${BLUE}🚀 FEDCORE Database Setup${NC}"
 echo ""
 
 # Check if password is provided

@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# Production Setup Script for Project Pro
+# Production Setup Script for FEDCORE
 # This script transitions from demo mode to production mode
 
 echo "================================================"
-echo "Project Pro - Production Setup"
+echo "FEDCORE - Production Setup"
 echo "================================================"
 echo ""
 
 # Check if we're in the right directory
 if [ ! -f "package.json" ]; then
-    echo "Error: Please run this script from the ProjectPro directory"
+    echo "Error: Please run this script from the FedCore directory"
     exit 1
 fi
 

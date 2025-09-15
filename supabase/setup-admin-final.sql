@@ -7,7 +7,7 @@
 -- 1. Go to Supabase Dashboard > Authentication > Users
 -- 2. Click "Add User" > "Create new user"
 -- 3. Enter:
---    - Email: admin@projectpro.com
+--    - Email: admin@fedcore.com
 --    - Password: [Your secure password]
 --    - Auto Confirm Email: CHECKED ✓
 -- 4. Click "Create User"
@@ -18,7 +18,7 @@ DO $$
 DECLARE
   v_user_id UUID;
   v_tenant_id UUID;
-  v_email TEXT := 'admin@projectpro.com';
+  v_email TEXT := 'admin@fedcore.com';
 BEGIN
   -- ============================================
   -- STEP 1: Verify user exists
@@ -28,7 +28,7 @@ BEGIN
   WHERE email = v_email;
 
   IF v_user_id IS NULL THEN
-    RAISE EXCEPTION E'\n\n❌ ERROR: Admin user not found!\n\nPlease complete these steps first:\n1. Go to Supabase Dashboard > Authentication > Users\n2. Click "Add User" > "Create new user"\n3. Enter email: admin@projectpro.com\n4. Enter your chosen password\n5. Check "Auto Confirm Email"\n6. Click "Create User"\n7. Then run this SQL again\n\n';
+    RAISE EXCEPTION E'\n\n❌ ERROR: Admin user not found!\n\nPlease complete these steps first:\n1. Go to Supabase Dashboard > Authentication > Users\n2. Click "Add User" > "Create new user"\n3. Enter email: admin@fedcore.com\n4. Enter your chosen password\n5. Check "Auto Confirm Email"\n6. Click "Create User"\n7. Then run this SQL again\n\n';
   END IF;
 
   RAISE NOTICE '';
@@ -42,7 +42,7 @@ BEGIN
     v_user_id, 
     v_email, 
     'Admin User', 
-    'Project Pro Admin',
+    'FEDCORE Admin',
     NULL
   )
   ON CONFLICT (id) DO UPDATE
@@ -65,7 +65,7 @@ BEGIN
     -- Create new tenant
     INSERT INTO public.tenants (name, slug, settings)
     VALUES (
-      'Project Pro Admin',
+      'FEDCORE Admin',
       'project-pro-admin',
       jsonb_build_object(
         'notifications', true,
@@ -161,7 +161,7 @@ BEGIN
   ) VALUES (
     v_user_id,
     v_tenant_id,
-    'Welcome to Project Pro!',
+    'Welcome to FEDCORE!',
     'Your admin account has been successfully set up. Start by creating your first project or inviting team members.',
     'success',
     false
@@ -189,7 +189,7 @@ BEGIN
     'Admin Account Setup',
     jsonb_build_object(
       'email', v_email,
-      'tenant', 'Project Pro Admin',
+      'tenant', 'FEDCORE Admin',
       'role', 'owner',
       'setup_date', NOW()
     )
@@ -206,7 +206,7 @@ BEGIN
   RAISE NOTICE '========================================';
   RAISE NOTICE '';
   RAISE NOTICE 'Admin Email: %', v_email;
-  RAISE NOTICE 'Tenant: Project Pro Admin';
+  RAISE NOTICE 'Tenant: FEDCORE Admin';
   RAISE NOTICE 'Role: Owner (Full Access)';
   RAISE NOTICE '';
   RAISE NOTICE 'You can now login at:';

@@ -10,7 +10,7 @@ const fs = require('fs')
 const path = require('path')
 
 async function main() {
-  console.log('🔍 Starting Project Pro Architecture Analysis...\n')
+  console.log('🔍 Starting FEDCORE Architecture Analysis...\n')
   
   const analyzer = new ArchitectureAnalyzer(process.cwd())
   const report = await analyzer.analyze()

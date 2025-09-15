@@ -160,27 +160,27 @@ function SignupForm() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-coreiq flex items-center justify-center p-4">
+    <div className="min-h-screen bg-[#0d1117] flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
           <div className="inline-flex items-center gap-2 mb-4">
             <Building2 className="h-10 w-10 text-primary" />
-            <h1 className="text-3xl font-bold text-gray-900">Project Pro</h1>
+            <h1 className="text-3xl font-bold text-white tracking-wider">FEDCORE</h1>
           </div>
-          <p className="text-gray-600">Create your contractor account</p>
+          <p className="text-blue-300">Create your enterprise construction account</p>
         </div>
 
         {/* Signup Form */}
-        <div className="coreiq-card">
-          <div className="card-body">
-            <h2 className="text-xl font-semibold text-gray-900 mb-6">
+        <div className="bg-[#21262d] border border-[#58a6ff]/20 rounded-lg shadow-xl">
+          <div className="p-6">
+            <h2 className="text-xl font-semibold text-white mb-6">
               {inviteData ? 'Accept Team Invitation' : 'Get started for free'}
             </h2>
 
             {inviteData && (
               <div className="mb-4 p-3 rounded-lg bg-blue-50 border border-blue-200">
-                <p className="text-sm text-blue-700">
+                <p className="text-sm text-blue-300">
                   You've been invited to join an organization as a <strong>{inviteData.role || 'member'}</strong>.
                 </p>
               </div>
@@ -189,7 +189,7 @@ function SignupForm() {
             {error && (
               <div className="mb-4 p-3 rounded-lg bg-red-50 border border-red-200 flex items-start gap-2">
                 <AlertCircle className="h-4 w-4 text-red-600 mt-0.5" />
-                <p className="text-sm text-red-700">{error}</p>
+                <p className="text-sm text-red-400">{error}</p>
               </div>
             )}
 
@@ -225,7 +225,7 @@ function SignupForm() {
                       required={!inviteData}
                     />
                   </div>
-                  <p className="text-xs text-gray-500 mt-1">
+                  <p className="text-xs text-gray-400 mt-1">
                     This will be your organization name
                   </p>
                 </div>
@@ -262,7 +262,7 @@ function SignupForm() {
                     minLength={6}
                   />
                 </div>
-                <p className="text-xs text-gray-500 mt-1">
+                <p className="text-xs text-gray-400 mt-1">
                   Must be at least 6 characters
                 </p>
               </div>
@@ -282,11 +282,11 @@ function SignupForm() {
                   <div className="w-full border-t border-gray-200" />
                 </div>
                 <div className="relative flex justify-center text-sm">
-                  <span className="bg-white px-2 text-gray-500">What you get</span>
+                  <span className="bg-[#21262d] px-2 text-gray-300">Enterprise Features</span>
                 </div>
               </div>
 
-              <ul className="mt-4 space-y-2 text-sm text-gray-600">
+              <ul className="mt-4 space-y-2 text-sm text-gray-300">
                 <li className="flex items-center gap-2">
                   <span className="text-green-500">✓</span>
                   Unlimited projects and tasks
@@ -306,7 +306,7 @@ function SignupForm() {
               </ul>
             </div>
 
-            <p className="mt-6 text-center text-sm text-gray-600">
+            <p className="mt-6 text-center text-sm text-gray-300">
               Already have an account?{' '}
               <Link href="/login" className="text-primary hover:text-primary-dark font-medium">
                 Sign in
@@ -315,7 +315,7 @@ function SignupForm() {
           </div>
         </div>
 
-        <p className="mt-4 text-center text-xs text-gray-500">
+        <p className="mt-4 text-center text-xs text-gray-400">
           By signing up, you agree to our{' '}
           <Link href="/terms" className="underline">Terms of Service</Link>
           {' '}and{' '}

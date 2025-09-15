@@ -78,28 +78,28 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-coreiq flex items-center justify-center p-4">
+    <div className="min-h-screen bg-[#0d1117] flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
           <div className="inline-flex items-center gap-2 mb-4">
             <Building2 className="h-10 w-10 text-primary" />
-            <h1 className="text-3xl font-bold text-gray-900">Project Pro</h1>
+            <h1 className="text-3xl font-bold text-white tracking-wider">FEDCORE</h1>
           </div>
-          <p className="text-gray-600">Contractor Management Platform</p>
+          <p className="text-blue-300">Enterprise Construction Management Platform</p>
         </div>
 
         {/* Login Form */}
-        <div className="coreiq-card">
-          <div className="card-body">
-            <h2 className="text-xl font-semibold text-gray-900 mb-6">
+        <div className="bg-[#21262d] border border-[#58a6ff]/20 rounded-lg shadow-xl">
+          <div className="p-6">
+            <h2 className="text-xl font-semibold text-white mb-6">
               Sign in to your account
             </h2>
 
             {error && (
               <div className="mb-4 p-3 rounded-lg bg-red-50 border border-red-200 flex items-start gap-2">
                 <AlertCircle className="h-4 w-4 text-red-600 mt-0.5" />
-                <p className="text-sm text-red-700">{error}</p>
+                <p className="text-sm text-red-400">{error}</p>
               </div>
             )}
 
@@ -160,16 +160,16 @@ export default function LoginPage() {
               <button
                 type="button"
                 onClick={handleQuickFill}
-                className="w-full px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-sm font-medium"
+                className="w-full px-4 py-2 bg-[#58a6ff] text-[#0d1117] rounded-lg hover:bg-[#78b8ff] transition-colors text-sm font-medium"
               >
                 Login as Admin (Demo)
               </button>
-              <p className="text-xs text-gray-500 mt-2 text-center">
-                Email: mparish@meridianswl.com | Password: ProjectPro2024!
+              <p className="text-xs text-gray-400 mt-2 text-center">
+                Email: mparish@meridianswl.com | Password: FedCore2024!
               </p>
             </div>
 
-            <p className="mt-6 text-center text-sm text-gray-600">
+            <p className="mt-6 text-center text-sm text-gray-300">
               Don't have an account?{' '}
               <Link href="/signup" className="text-primary hover:text-primary-dark font-medium">
                 Sign up for free
@@ -178,7 +178,7 @@ export default function LoginPage() {
           </div>
         </div>
 
-        <p className="mt-4 text-center text-xs text-gray-500">
+        <p className="mt-4 text-center text-xs text-gray-400">
           By signing in, you agree to our{' '}
           <Link href="/terms" className="underline">Terms of Service</Link>
           {' '}and{' '}

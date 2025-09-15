@@ -1,7 +1,7 @@
 # Email Reply System Documentation
 
 ## Overview
-The messaging system now supports two-way email communication with external contacts (customers, vendors). When contacts reply to emails sent from Project Pro, their responses automatically appear in the messaging console.
+The messaging system now supports two-way email communication with external contacts (customers, vendors). When contacts reply to emails sent from FEDCORE, their responses automatically appear in the messaging console.
 
 ## How It Works
 
@@ -120,7 +120,7 @@ curl -X POST https://yourapp.com/api/webhooks/email \
     "data": {
       "from": {"email": "customer@example.com", "name": "John Customer"},
       "to": [{"email": "conv-abc123@replies.projectpro.app"}],
-      "subject": "Re: Message from Project Pro",
+      "subject": "Re: Message from FEDCORE",
       "text": "This is my reply to your message",
       "message_id": "<unique-id@example.com>"
     }

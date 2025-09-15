@@ -25,9 +25,9 @@ export async function POST(request: NextRequest) {
     
     // Send email using Resend
     const { data, error } = await resend.emails.send({
-      from: 'Project Pro <onboarding@resend.dev>',  // Using Resend's test domain for now
+      from: 'FEDCORE <onboarding@resend.dev>',  // Using Resend's test domain for now
       to: [email],
-      subject: `You're invited to join ${organizationName || 'our organization'} on Project Pro`,
+      subject: `You're invited to join ${organizationName || 'our organization'} on FEDCORE`,
       html: `
         <!DOCTYPE html>
         <html>
@@ -52,11 +52,11 @@ export async function POST(request: NextRequest) {
                 <p style="font-size: 16px; color: #1f2937;">Hi there,</p>
                 
                 <p style="font-size: 16px; color: #1f2937;">
-                  ${senderName || 'A team member'} has invited you to join <strong>${organizationName || 'their organization'}</strong> on Project Pro as a <span class="role-badge">${role || 'member'}</span>.
+                  ${senderName || 'A team member'} has invited you to join <strong>${organizationName || 'their organization'}</strong> on FEDCORE as a <span class="role-badge">${role || 'member'}</span>.
                 </p>
                 
                 <p style="font-size: 16px; color: #1f2937;">
-                  Project Pro is a powerful project management platform designed for construction and contracting teams. Join your team to:
+                  FEDCORE is a federal-grade construction management platform designed for enterprise teams. Join your team to:
                 </p>
                 
                 <ul style="color: #4b5563; font-size: 14px; line-height: 1.8;">
@@ -83,7 +83,7 @@ export async function POST(request: NextRequest) {
               </div>
               
               <div class="footer">
-                <p>© 2024 Project Pro. All rights reserved.</p>
+                <p>© 2024 FEDCORE. All rights reserved.</p>
                 <p>If you didn't expect this invitation, you can safely ignore this email.</p>
               </div>
             </div>
@@ -91,7 +91,7 @@ export async function POST(request: NextRequest) {
         </html>
       `,
       text: `
-You're invited to join ${organizationName || 'our organization'} on Project Pro!
+You're invited to join ${organizationName || 'our organization'} on FEDCORE!
 
 ${senderName || 'A team member'} has invited you to join as a ${role || 'member'}.
 

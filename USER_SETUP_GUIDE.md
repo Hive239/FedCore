@@ -1,4 +1,4 @@
-# Project Pro - User Setup & Authentication Guide
+# FEDCORE - User Setup & Authentication Guide
 
 ## ✅ Current Setup Status
 

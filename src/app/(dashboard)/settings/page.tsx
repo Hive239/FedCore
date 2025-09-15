@@ -1515,7 +1515,7 @@ export default function SettingsPage() {
                     Theme & Colors
                   </CardTitle>
                   <CardDescription>
-                    Customize the visual appearance of Project Pro
+                    Customize the visual appearance of FEDCORE
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-6">

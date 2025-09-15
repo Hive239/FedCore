@@ -292,8 +292,8 @@ export default function TeamManagementPage() {
               email: email,
               inviteLink: inviteLink,
               role: inviteForm.role || 'member',
-              senderName: 'Project Pro Team',
-              organizationName: 'Project Pro'
+              senderName: 'FEDCORE Team',
+              organizationName: 'FEDCORE'
             })
           })
           

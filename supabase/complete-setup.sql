@@ -1,4 +1,4 @@
--- Project Pro Complete Database Setup
+-- FEDCORE Complete Database Setup
 -- Run this entire script in the Supabase SQL Editor
 
 -- Enable UUID extension

@@ -35,7 +35,7 @@ export async function POST(request: NextRequest) {
     
     // Send email
     const mailOptions = {
-      from: `"${organizationName || 'Project Pro'}" <${process.env.GMAIL_USER}>`,
+      from: `"${organizationName || 'FEDCORE'}" <${process.env.GMAIL_USER}>`,
       to: email,
       subject: `You're invited to join ${organizationName || 'our organization'}`,
       html: `

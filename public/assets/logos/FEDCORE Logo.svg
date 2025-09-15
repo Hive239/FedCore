@@ -1,0 +1,32 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Carbon Fiber Background -->
+  <defs>
+    <pattern id="carbonFiber" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="4" fill="#0d1117"/>
+      <rect width="2" height="2" fill="#21262d"/>
+      <rect x="2" y="2" width="2" height="2" fill="#21262d"/>
+    </pattern>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4894e6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="60" fill="url(#carbonFiber)" rx="8"/>
+  
+  <!-- Border -->
+  <rect width="200" height="60" fill="none" stroke="url(#blueGradient)" stroke-width="2" rx="8"/>
+  
+  <!-- FEDCORE Text -->
+  <text x="100" y="25" font-family="Inter, sans-serif" font-size="18" font-weight="700" 
+        text-anchor="middle" fill="url(#blueGradient)" letter-spacing="2px">FEDCORE</text>
+  
+  <!-- Tagline -->
+  <text x="100" y="45" font-family="Inter, sans-serif" font-size="10" font-weight="400" 
+        text-anchor="middle" fill="#78b8ff" letter-spacing="1px">ENTERPRISE CONSTRUCTION PLATFORM</text>
+  
+  <!-- Geometric accent -->
+  <polygon points="15,15 25,15 20,25" fill="url(#blueGradient)" opacity="0.8"/>
+  <polygon points="175,35 185,35 180,45" fill="url(#blueGradient)" opacity="0.8"/>
+</svg>

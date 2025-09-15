@@ -7,71 +7,72 @@
 
 @layer base {
   :root {
-    /* CoreIQ Color System */
-    --primary: 75 46 97; /* #4b2e61 in RGB */
-    --primary-light: 107 76 129;
-    --primary-dark: 59 30 81;
+    /* FEDCORE Dark Carbon Theme */
+    --primary: 13 17 23; /* #0d1117 Carbon Black */
+    --primary-light: 33 38 45; /* #21262d Steel Gray */
+    --primary-dark: 5 8 11; /* Deeper carbon */
     
-    --secondary: 139 92 246;
-    --secondary-light: 167 139 250;
-    --secondary-dark: 124 58 237;
+    --secondary: 88 166 255; /* #58a6ff Electric Blue */
+    --secondary-light: 120 180 255;
+    --secondary-dark: 56 120 200;
     
-    --success: 16 185 129;
-    --warning: 245 158 11;
-    --error: 239 68 68;
-    --info: 59 130 246;
+    --success: 35 134 54; /* #238636 Construction Green */
+    --warning: 245 158 11; /* #f59e0b Amber */
+    --error: 220 38 38; /* #dc2626 Red */
+    --info: 88 166 255; /* Electric Blue */
     
-    /* Grays */
-    --gray-50: 249 250 251;
-    --gray-100: 243 244 246;
-    --gray-200: 229 231 235;
-    --gray-300: 209 213 219;
-    --gray-400: 156 163 175;
-    --gray-500: 107 114 128;
-    --gray-600: 75 85 99;
-    --gray-700: 55 65 81;
-    --gray-800: 31 41 55;
-    --gray-900: 17 24 39;
+    /* Carbon Fiber Grays */
+    --gray-50: 26 26 26; /* #1a1a1a Deep Charcoal */
+    --gray-100: 33 38 45; /* #21262d Steel Gray */
+    --gray-200: 48 54 61;
+    --gray-300: 64 70 82;
+    --gray-400: 125 133 144;
+    --gray-500: 139 148 158;
+    --gray-600: 177 186 196;
+    --gray-700: 205 213 221;
+    --gray-800: 230 237 243;
+    --gray-900: 255 255 255;
     
-    /* Tailwind compatible values */
-    --background: 0 0% 100%;
-    --foreground: 224 71% 4%;
-    --card: 0 0% 100%;
-    --card-foreground: 224 71% 4%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 224 71% 4%;
-    --primary-foreground: 210 40% 98%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Dark theme base */
+    --background: 13 17 23; /* Carbon Black */
+    --foreground: 230 237 243;
+    --card: 33 38 45; /* Steel Gray */
+    --card-foreground: 230 237 243;
+    --popover: 33 38 45;
+    --popover-foreground: 230 237 243;
+    --primary-foreground: 230 237 243;
+    --secondary-foreground: 13 17 23;
+    --muted: 48 54 61;
+    --muted-foreground: 139 148 158;
+    --accent: 88 166 255; /* Electric Blue */
+    --accent-foreground: 13 17 23;
+    --destructive: 220 38 38;
+    --destructive-foreground: 230 237 243;
+    --border: 48 54 61;
+    --input: 48 54 61;
+    --ring: 88 166 255;
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-    --primary-foreground: 210 40% 98%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    /* FEDCORE operates in permanent dark mode */
+    --background: 13 17 23; /* Carbon Black */
+    --foreground: 230 237 243;
+    --card: 33 38 45; /* Steel Gray */
+    --card-foreground: 230 237 243;
+    --popover: 33 38 45;
+    --popover-foreground: 230 237 243;
+    --primary-foreground: 230 237 243;
+    --secondary-foreground: 13 17 23;
+    --muted: 48 54 61;
+    --muted-foreground: 139 148 158;
+    --accent: 88 166 255; /* Electric Blue */
+    --accent-foreground: 13 17 23;
+    --destructive: 220 38 38;
+    --destructive-foreground: 230 237 243;
+    --border: 48 54 61;
+    --input: 48 54 61;
+    --ring: 88 166 255;
   }
   
   * {
@@ -84,19 +85,21 @@
   
   body {
     @apply bg-background text-foreground;
-    font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: #0d1117; /* FEDCORE Carbon Black base */
+    color: #e6edf3; /* Light foreground */
   }
   
-  /* Typography - Headings use Merriweather */
+  /* Typography - FEDCORE uses Inter for modern technical aesthetic */
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     font-weight: 700;
     line-height: 1.2;
-    color: rgb(var(--gray-900));
+    color: #e6edf3; /* Light text for dark theme */
   }
   
   h1 { @apply text-4xl md:text-5xl; }
@@ -175,13 +178,25 @@
     @apply bg-red-100 text-red-800 dark:bg-red-900/20 dark:text-red-400;
   }
 
-  /* Gradients */
+  /* FEDCORE Carbon Fiber Gradients */
   .gradient-primary, .bg-gradient-primary {
-    background: linear-gradient(135deg, rgb(var(--primary)) 0%, rgb(var(--primary-dark)) 100%);
+    background: linear-gradient(135deg, #0d1117 0%, #21262d 50%, #1a1a1a 100%);
+    border: 1px solid rgba(88, 166, 255, 0.2);
   }
 
   .gradient-light {
-    background: linear-gradient(135deg, rgb(var(--gray-50)) 0%, rgb(var(--gray-100)) 50%, rgb(var(--gray-200)) 100%);
+    background: linear-gradient(135deg, #21262d 0%, #30363d 50%, #484f58 100%);
+  }
+
+  .gradient-carbon {
+    background: linear-gradient(135deg, #0d1117 0%, #1a1a1a 25%, #21262d 50%, #1a1a1a 75%, #0d1117 100%);
+    background-size: 400% 400%;
+    animation: carbonShimmer 8s ease-in-out infinite;
+  }
+
+  @keyframes carbonShimmer {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
   }
 
   /* Glass morphism effect */
@@ -384,9 +399,33 @@
 
 /* Custom component styles that can't be expressed in Tailwind */
 @layer components {
-  /* Primary button with CoreIQ purple */
+  /* FEDCORE Primary Button with Electric Blue accent */
   .btn-primary {
-    @apply bg-[rgb(75,46,97)] text-white hover:bg-[rgb(59,30,81)] active:bg-[rgb(42,25,54)] px-4 py-2 rounded-md font-medium transition-all duration-200 inline-flex items-center gap-2;
+    @apply bg-[#58a6ff] text-[#0d1117] hover:bg-[#78b8ff] active:bg-[#4894e6] px-4 py-2 rounded-md font-medium transition-all duration-200 inline-flex items-center gap-2;
+    box-shadow: 0 0 20px rgba(88, 166, 255, 0.3);
+  }
+
+  .btn-secondary {
+    @apply bg-[#21262d] text-[#e6edf3] border border-[#58a6ff]/30 hover:bg-[#30363d] hover:border-[#58a6ff]/50 px-4 py-2 rounded-md font-medium transition-all duration-200 inline-flex items-center gap-2;
+  }
+
+  .btn-carbon {
+    background: linear-gradient(135deg, #21262d 0%, #30363d 100%);
+    border: 1px solid rgba(88, 166, 255, 0.3);
+    color: #e6edf3;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .btn-carbon:hover {
+    background: linear-gradient(135deg, #30363d 0%, #484f58 100%);
+    border-color: rgba(88, 166, 255, 0.5);
+    box-shadow: 0 0 15px rgba(88, 166, 255, 0.2);
   }
 
   /* Fix for shadcn/ui components */

@@ -1,6 +1,6 @@
-# Project Pro Database Setup Guide
+# FEDCORE Database Setup Guide
 
-This guide will help you set up the Project Pro database in Supabase.
+This guide will help you set up the FEDCORE database in Supabase.
 
 ## Step 1: Create the Database Schema
 

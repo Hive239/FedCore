@@ -7,7 +7,7 @@ DO $$
 DECLARE
   v_user_id UUID;
   v_tenant_id UUID;
-  v_email TEXT := 'admin@projectpro.com';
+  v_email TEXT := 'admin@fedcore.com';
   v_password TEXT := 'YourSecurePassword123!'; -- CHANGE THIS PASSWORD!
 BEGIN
   -- Check if user already exists
@@ -33,7 +33,7 @@ BEGIN
     RAISE NOTICE '1. Go to Supabase Dashboard > Authentication > Users';
     RAISE NOTICE '2. Click "Add User" > "Create new user"';
     RAISE NOTICE '3. Enter:';
-    RAISE NOTICE '   Email: admin@projectpro.com';
+    RAISE NOTICE '   Email: admin@fedcore.com';
     RAISE NOTICE '   Password: [Your secure password]';
     RAISE NOTICE '   Auto Confirm Email: CHECKED';
     RAISE NOTICE '4. Click "Create User"';
@@ -56,7 +56,7 @@ BEGIN
   -- Get the admin user ID
   SELECT id INTO v_user_id
   FROM auth.users
-  WHERE email = 'admin@projectpro.com';
+  WHERE email = 'admin@fedcore.com';
 
   IF v_user_id IS NULL THEN
     RAISE EXCEPTION 'Admin user not found. Please create the user first in Supabase Dashboard.';
@@ -66,9 +66,9 @@ BEGIN
   INSERT INTO public.profiles (id, email, full_name, company)
   VALUES (
     v_user_id, 
-    'admin@projectpro.com', 
+    'admin@fedcore.com', 
     'Admin User', 
-    'Project Pro Admin'
+    'FEDCORE Admin'
   )
   ON CONFLICT (id) DO UPDATE
   SET 
@@ -85,7 +85,7 @@ BEGIN
     -- Create admin tenant
     INSERT INTO public.tenants (name, slug, settings)
     VALUES (
-      'Project Pro Admin',
+      'FEDCORE Admin',
       'project-pro-admin',
       jsonb_build_object(
         'notifications', true,
@@ -114,8 +114,8 @@ BEGIN
 
   RAISE NOTICE '';
   RAISE NOTICE '✅ SUCCESS! Admin setup complete!';
-  RAISE NOTICE 'Email: admin@projectpro.com';
-  RAISE NOTICE 'Tenant: Project Pro Admin';
+  RAISE NOTICE 'Email: admin@fedcore.com';
+  RAISE NOTICE 'Tenant: FEDCORE Admin';
   RAISE NOTICE 'Role: Owner';
   RAISE NOTICE '';
   RAISE NOTICE 'You can now login at http://localhost:3000/login';

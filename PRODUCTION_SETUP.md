@@ -1,4 +1,4 @@
-# Project Pro - Production Setup Guide
+# FEDCORE - Production Setup Guide
 
 ## Quick Start - Get Out of Demo Mode
 
@@ -225,4 +225,4 @@ For issues or questions:
 
 ---
 
-**You're now running Project Pro in full production mode! 🚀**
+**You're now running FEDCORE in full production mode! 🚀**

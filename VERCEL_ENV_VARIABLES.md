@@ -1,4 +1,4 @@
-# Vercel Environment Variables for Project Pro
+# Vercel Environment Variables for FEDCORE
 
 ## Required Environment Variables
 
@@ -44,7 +44,7 @@ NEXT_PUBLIC_ENABLE_ERROR_TRACKING=false
 ## How to Add Variables in Vercel:
 
 1. Go to your Vercel Dashboard
-2. Select your Project Pro project
+2. Select your FEDCORE project
 3. Navigate to **Settings** > **Environment Variables**
 4. Add each variable one by one:
    - Enter the **Name** (e.g., `NEXT_PUBLIC_SUPABASE_URL`)
@@ -55,7 +55,7 @@ NEXT_PUBLIC_ENABLE_ERROR_TRACKING=false
 ## Getting the Service Role Key:
 
 1. Go to your Supabase Dashboard
-2. Select your Project Pro project
+2. Select your FEDCORE project
 3. Navigate to **Settings** > **API**
 4. Copy the `service_role` key (under Project API keys)
 5. Add it as `SUPABASE_SERVICE_ROLE_KEY` in Vercel

@@ -1,7 +1,7 @@
 {
-  "name": "FedCore - Enterprise Platform",
-  "short_name": "FedCore",
-  "description": "Enterprise platform with real-time collaboration",
+  "name": "FEDCORE - Enterprise Platform",
+  "short_name": "FEDCORE",
+  "description": "FEDCORE Enterprise platform with real-time collaboration and advanced analytics",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

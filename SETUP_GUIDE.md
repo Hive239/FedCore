@@ -1,4 +1,4 @@
-# Project Pro Setup Guide
+# FEDCORE Setup Guide
 
 ## ✅ Completed Setup
 

@@ -1,5 +1,5 @@
-// Database types for Project Pro
-// Based on the CoreIQ/Project Pro database schema
+// Database types for FEDCORE
+// Based on the FEDCORE enterprise database schema
 
 export type Json =
   | string

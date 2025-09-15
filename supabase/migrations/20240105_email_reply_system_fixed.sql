@@ -282,7 +282,7 @@ INSERT INTO email_settings (
 SELECT 
     id,
     'messages@projectpro.app',
-    'Project Pro Messages',
+    'FEDCORE Messages',
     'resend',
     'replies.projectpro.app'
 FROM tenants

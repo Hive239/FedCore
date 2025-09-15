@@ -367,13 +367,13 @@ export function Sidebar() {
         isMobileOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
       )}>
         <div className="flex h-full flex-col">
-          {/* Logo Section */}
+          {/* FEDCORE Logo Section */}
           <div className="flex h-16 items-center justify-between px-6">
             <Link href="/dashboard" className="flex items-center gap-3">
               <div className="relative h-10 w-10 flex-shrink-0">
                 <Image
-                  src="/assets/logos/Project Pro Logo.svg"
-                  alt="Project Pro"
+                  src="/assets/logos/FEDCORE White.svg"
+                  alt="FEDCORE"
                   width={40}
                   height={40}
                   className="object-contain"
@@ -381,8 +381,8 @@ export function Sidebar() {
               </div>
               {!isCollapsed && (
                 <div className="flex flex-col">
-                  <span className="text-lg font-bold text-white">Project Pro</span>
-                  <span className="text-xs text-purple-200">Beta</span>
+                  <span className="text-lg font-bold text-white tracking-wider">FEDCORE</span>
+                  <span className="text-xs text-blue-300">Enterprise</span>
                 </div>
               )}
             </Link>

@@ -87,9 +87,9 @@ async function handleInvite(request: NextRequest, context: { userId: string; ten
         }
         
         const emailResponse = await resend.emails.send({
-          from: 'Project Pro <noreply@projectpro.app>',
+          from: 'FEDCORE <noreply@fedcore.app>',
           to: email,
-          subject: `You're invited to join ${tenant.name} on Project Pro`,
+          subject: `You're invited to join ${tenant.name} on FEDCORE`,
           html: `
             <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; max-width: 600px; margin: 0 auto;">
               <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px 20px; text-align: center; border-radius: 10px 10px 0 0;">
@@ -100,7 +100,7 @@ async function handleInvite(request: NextRequest, context: { userId: string; ten
                 <p style="color: #333; font-size: 16px; line-height: 1.6;">Hi there,</p>
                 
                 <p style="color: #333; font-size: 16px; line-height: 1.6;">
-                  ${inviterName} has invited you to join <strong>${tenant.name}</strong> on Project Pro as a <strong>${role}</strong>.
+                  ${inviterName} has invited you to join <strong>${tenant.name}</strong> on FEDCORE as a <strong>${role}</strong>.
                 </p>
                 
                 ${message ? `
@@ -110,7 +110,7 @@ async function handleInvite(request: NextRequest, context: { userId: string; ten
                 ` : ''}
                 
                 <p style="color: #333; font-size: 16px; line-height: 1.6;">
-                  Project Pro is a powerful project management platform that helps teams collaborate effectively and deliver projects on time.
+                  FEDCORE is a federal-grade construction management platform designed for enterprise teams with advanced security and collaboration features.
                 </p>
                 
                 <div style="text-align: center; margin: 35px 0;">

@@ -1,4 +1,4 @@
-# Local Data Persistence Setup for Project Pro
+# Local Data Persistence Setup for FEDCORE
 
 ## Overview
 This guide will help you set up persistent data storage on your local server so you can test with real data that persists between sessions.

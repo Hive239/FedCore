@@ -7,7 +7,7 @@ BLUE='\033[0;34m'
 YELLOW='\033[1;33m'
 NC='\033[0m'
 
-echo -e "${BLUE}🚀 Complete Project Pro Setup${NC}"
+echo -e "${BLUE}🚀 Complete FEDCORE Setup${NC}"
 echo ""
 
 # Check if tables exist by trying to query tenants table
@@ -25,7 +25,7 @@ if [[ $SCHEMA_CHECK == *"\"tenants\""* ]] || [[ $SCHEMA_CHECK == "[]" ]]; then
     echo ""
     
     # Run the data seeding script
-    "/home/wfowlkes/Claude Main Projects/Project Pro/project-pro-app/scripts/seed-data-api.sh"
+    "/Users/mpari/Desktop/HIVE239/Project Pro/FedCore/scripts/seed-data-api.sh"
 else
     echo -e "${RED}✗ Schema not found${NC}"
     echo ""

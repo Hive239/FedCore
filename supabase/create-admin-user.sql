@@ -18,8 +18,8 @@ BEGIN
   -- Create a new tenant for the admin
   INSERT INTO public.tenants (name, slug, settings)
   VALUES (
-    'Project Pro Admin Company',
-    'project-pro-admin',
+    'FEDCORE Admin Company',
+    'fedcore-admin',
     jsonb_build_object(
       'notifications', true,
       'email_updates', true,
@@ -36,10 +36,10 @@ BEGIN
   -- 3. Use the SQL below if you have service role access
 
   -- Get the user ID (assuming the user was created via signup)
-  -- Replace 'admin@projectpro.com' with your email
+  -- Replace 'admin@fedcore.com' with your email
   SELECT id INTO v_user_id
   FROM auth.users
-  WHERE email = 'admin@projectpro.com'
+  WHERE email = 'admin@fedcore.com'
   LIMIT 1;
 
   -- If user exists, set them up as admin
@@ -48,9 +48,9 @@ BEGIN
     INSERT INTO public.profiles (id, email, full_name, company)
     VALUES (
       v_user_id,
-      'admin@projectpro.com',
+      'admin@fedcore.com',
       'Admin User',
-      'Project Pro Admin'
+      'FEDCORE Admin'
     )
     ON CONFLICT (id) DO UPDATE
     SET 
@@ -92,7 +92,7 @@ INSERT INTO auth.users (
 ) VALUES (
   'a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11'::uuid, -- Fixed UUID for admin
   '00000000-0000-0000-0000-000000000000'::uuid,
-  'admin@projectpro.com',
+  'admin@fedcore.com',
   crypt('Admin123!@#', gen_salt('bf')), -- Change this password!
   NOW(),
   NOW(),
@@ -107,17 +107,17 @@ INSERT INTO auth.users (
 INSERT INTO public.profiles (id, email, full_name, company)
 VALUES (
   'a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11'::uuid,
-  'admin@projectpro.com',
+  'admin@fedcore.com',
   'Admin User',
-  'Project Pro Admin'
+  'FEDCORE Admin'
 );
 
 -- Create tenant
 INSERT INTO public.tenants (id, name, slug)
 VALUES (
   'b0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11'::uuid,
-  'Project Pro Admin Company',
-  'project-pro-admin'
+  'FEDCORE Admin Company',
+  'fedcore-admin'
 );
 
 -- Link admin to tenant
@@ -134,7 +134,7 @@ VALUES (
 -- QUICK SETUP INSTRUCTIONS
 -- ============================================
 -- 1. First, create a user through Supabase Dashboard or your app's signup
---    Email: admin@projectpro.com (or your preferred email)
+--    Email: admin@fedcore.com (or your preferred email)
 --    Password: [Your secure password]
 --
 -- 2. Then run this SQL to make them an admin:
@@ -148,18 +148,18 @@ BEGIN
   -- Get the user ID by email
   SELECT id INTO v_user_id
   FROM auth.users
-  WHERE email = 'admin@projectpro.com'; -- Change to your email
+  WHERE email = 'admin@fedcore.com'; -- Change to your email
 
   IF v_user_id IS NOT NULL THEN
     -- Create/update profile
     INSERT INTO public.profiles (id, email, full_name, company)
-    VALUES (v_user_id, 'admin@projectpro.com', 'Admin User', 'Project Pro')
+    VALUES (v_user_id, 'admin@fedcore.com', 'Admin User', 'FEDCORE')
     ON CONFLICT (id) DO UPDATE
-    SET full_name = 'Admin User', company = 'Project Pro';
+    SET full_name = 'Admin User', company = 'FEDCORE';
 
     -- Create tenant if not exists
     INSERT INTO public.tenants (id, name, slug)
-    VALUES (v_tenant_id, 'Project Pro Admin', 'project-pro-admin')
+    VALUES (v_tenant_id, 'FEDCORE Admin', 'fedcore-admin')
     ON CONFLICT (id) DO NOTHING;
 
     -- Make user owner of tenant

@@ -33,17 +33,17 @@ const merriweather = Merriweather({
 });
 
 export const viewport: Viewport = {
-  themeColor: "#2563eb",
+  themeColor: "#0d1117", // FEDCORE Carbon Black
 }
 
 export const metadata: Metadata = {
-  title: "Project Pro - Contractor Management CRM",
-  description: "Comprehensive project management platform for contractors and construction professionals",
+  title: "FEDCORE - Enterprise Construction Management Platform",
+  description: "Advanced federal-grade construction management platform with enterprise security, real-time collaboration, and comprehensive project oversight",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
-    statusBarStyle: "default",
-    title: "ProjectPro",
+    statusBarStyle: "black-translucent",
+    title: "FEDCORE",
     startupImage: [
       {
         url: "/icons/icon-192x192.png",
@@ -53,9 +53,9 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    siteName: "ProjectPro",
-    title: "Project Pro - Enterprise Project Management",
-    description: "Comprehensive project management platform with offline support and real-time collaboration",
+    siteName: "FEDCORE",
+    title: "FEDCORE - Enterprise Construction Management Platform",
+    description: "Federal-grade construction management platform with advanced security, AI-powered insights, and enterprise-level project coordination",
   },
 };
 
@@ -70,10 +70,10 @@ export default function RootLayout({
         <link href='https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css' rel='stylesheet' />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="ProjectPro" />
+        <meta name="apple-mobile-web-app-title" content="FEDCORE" />
         <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
         <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="msapplication-TileColor" content="#2563eb" />
+        <meta name="msapplication-TileColor" content="#0d1117" />
         <meta name="msapplication-config" content="/browserconfig.xml" />
       </head>
       <body
